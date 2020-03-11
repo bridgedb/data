@@ -1,4 +1,8 @@
 When using these files in studies, please cite the data following the [DataCite](https://datacite.org/) standard.
+And thanks to 
+[Zenodo](https://zenodo.org/) and
+[Figshare](https://figshare.com/)
+for hosting the data.
 
 # Gene / Protein ID mapping databases
 
@@ -23,5 +27,5 @@ When using these files in studies, please cite the data following the [DataCite]
 
 # Interaction and Metabolite ID mapping databases
 
-* [interactions20190228.bridge](https://ndownloader.figshare.com/files/14488412)
+* [interactions20190228.bridge](https://ndownloader.figshare.com/files/14488412) (doi:[10.6084/m9.figshare.7782737.v1](https://doi.org/10.6084/m9.figshare.7782737.v1))
 * [metabolites_20191025.bridge](https://ndownloader.figshare.com/files/18108980) (doi:[10.6084/m9.figshare.10048508.v1](https://doi.org/10.6084/m9.figshare.10048508.v1))

@@ -25,6 +25,10 @@ for hosting the data.
 * [Sc_Derby_Ensembl_91.bridge](https://zenodo.org/record/3667670/files/Sc_Derby_Ensembl_91.bridge?download=1) (doi:[10.5281/zenodo.3667670](https://doi.org/10.5281/zenodo.3667670))
 * [Zm_Derby_Ensembl_Plant_39.bridge](https://zenodo.org/record/3667670/files/Zm_Derby_Ensembl_Plant_39.bridge?download=1) (doi:[10.5281/zenodo.3667670](https://doi.org/10.5281/zenodo.3667670))
 
+## Coronavirus gene/protein identifiers
+
+* [humancorona-2020-04-01.bridge](https://zenodo.org/record/3735705/files/humancorona-2020-04-01.bridge?download=1) (doi:[10.5281/zenodo.3735705](https://doi.org/10.5281/zenodo.3735705))
+
 # Interaction and Metabolite ID mapping databases
 
 * [interactions20190228.bridge](https://ndownloader.figshare.com/files/14488412) (doi:[10.6084/m9.figshare.7782737.v1](https://doi.org/10.6084/m9.figshare.7782737.v1))

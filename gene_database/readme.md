@@ -31,7 +31,7 @@ for hosting the data.
 
 | Species | BridgeDb Download | DOI |
 |-------|--------|---------|
-| Homo Sapiens | [humancorona-2020-04-01.bridge](https://zenodo.org/record/3735705/files/humancorona-2020-04-01.bridge?download=1) | (doi:[10.5281/zenodo.3735705](https://doi.org/10.5281/zenodo.3735705)) |
+| Human Coronavirus | [humancorona-2020-04-01.bridge](https://zenodo.org/record/3735705/files/humancorona-2020-04-01.bridge?download=1) | (doi:[10.5281/zenodo.3735705](https://doi.org/10.5281/zenodo.3735705)) |
 
 # Interaction and Metabolite ID mapping databases
 

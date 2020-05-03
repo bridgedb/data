@@ -18,7 +18,7 @@ for hosting the data.
 | Canis familiaris | [Cf_Derby_Ensembl_91.bridge](https://zenodo.org/record/3667670/files/Cf_Derby_Ensembl_91.bridge?download=1) | (doi:[10.5281/zenodo.3667670](https://doi.org/10.5281/zenodo.3667670)) |
 | Drosophila melanogaster | [Dm_Derby_Ensembl_91.bridge](https://zenodo.org/record/3667670/files/Dm_Derby_Ensembl_91.bridge?download=1) | (doi:[10.5281/zenodo.3667670](https://doi.org/10.5281/zenodo.3667670)) |
 | Danio rerio | [Dr_Derby_Ensembl_91.bridge](https://zenodo.org/record/3667670/files/Dr_Derby_Ensembl_91.bridge?download=1) | (doi:[10.5281/zenodo.3667670](https://doi.org/10.5281/zenodo.3667670)) |
-| Escherichia_coli | [Ec_Derby_Ensembl_91.bridge](https://zenodo.org/record/3667670/files/Ec_Derby_Ensembl_91.bridge?download=1) | (doi:[10.5281/zenodo.3667670](https://doi.org/10.5281/zenodo.3667670)) |
+| Escherichia coli | [Ec_Derby_Ensembl_91.bridge](https://zenodo.org/record/3667670/files/Ec_Derby_Ensembl_91.bridge?download=1) | (doi:[10.5281/zenodo.3667670](https://doi.org/10.5281/zenodo.3667670)) |
 | Gallus gallus | [Gg_Derby_Ensembl_91.bridge](https://zenodo.org/record/3667670/files/Gg_Derby_Ensembl_91.bridge?download=1) | (doi:[10.5281/zenodo.3667670](https://doi.org/10.5281/zenodo.3667670)) |
 | Gibberella zeae | [Gz_Derby_Ensembl_Fungi_39.bridge](https://zenodo.org/record/3667670/files/Gz_Derby_Ensembl_Fungi_39.bridge?download=1) | (doi:[10.5281/zenodo.3667670](https://doi.org/10.5281/zenodo.3667670)) |
 | Homo sapiens | [Hs_Derby_Ensembl_91.bridge](https://zenodo.org/record/3667670/files/Hs_Derby_Ensembl_91.bridge?download=1) | (doi:[10.5281/zenodo.3667670](https://doi.org/10.5281/zenodo.3667670)) |
@@ -37,7 +37,7 @@ for hosting the data.
 
 # Interaction and Metabolite ID mapping databases
 
-| interactions/metabolites | BridgeDb Download | DOI |
+| type | BridgeDb Download | DOI |
 |-------|--------|---------|
 | Interactions | [interactions20190228.bridge](https://ndownloader.figshare.com/files/14488412) | (doi:[10.6084/m9.figshare.7782737.v1](https://doi.org/10.6084/m9.figshare.7782737.v1)) |
 | Metabolites | [metabolites_20191025.bridge](https://ndownloader.figshare.com/files/18108980) | (doi:[10.6084/m9.figshare.10048508.v1](https://doi.org/10.6084/m9.figshare.10048508.v1)) |

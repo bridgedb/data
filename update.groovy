@@ -12,7 +12,7 @@ def createBioSchemas(file) {
   content += "\"description\": \"BridgeDb identifier mapping file for ${file.type}\","
   content += "\"identifier\": \"${file.doi}\","
   content += "\"keywords\": \"BridgeDb, mapping file, identifier, ${file.type}\","
-  content += "\"url\": \"${file.downloadURL}\","
+  content += "\"url\": \"${file.downloadURL}\""
   content += "}</script> "
   return content
 }

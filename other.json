@@ -1,0 +1,17 @@
+{
+  "type": "type",
+  "mappingFiles": [
+    {
+      "type": "Interactions",
+      "file":    "interactions20190228.bridge",
+      "downloadURL": "https://ndownloader.figshare.com/files/14488412",
+      "doi": "10.6084/m9.figshare.7782737.v1"
+    },
+    {
+      "type": "Metabolites",
+      "file":    "metabolites_20191025.bridge",
+      "downloadURL": "https://ndownloader.figshare.com/files/18108980",
+      "doi": "10.6084/m9.figshare.10048508.v1"
+    }
+  ]
+}

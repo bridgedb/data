@@ -5,6 +5,18 @@ import groovy.json.JsonSlurper
 
 templateFile = "gene_database/template.md"
 
+def createBioSchemas(file) {
+  content = "<script type=\"application/ld+json\">{"
+  content += "\"@type\": \"Dataset\","
+  content += "\"name\": \"${file.file}\","
+  content += "\"description\": \"BridgeDb identifier mapping file for ${file.type}\","
+  content += "\"identifier\": \"${file.doi}\","
+  content += "\"keywords\": \"BridgeDb, mapping file, identifier, ${file.type}\","
+  content += "\"url\": \"${file.downloadURL}\","
+  content += "}</script> "
+  return content
+}
+
 lines = new File(templateFile).readLines()
 lines.each { String line ->
   if (line.startsWith("<files>")) {
@@ -16,7 +28,9 @@ lines.each { String line ->
     println "| ${data.type} | BridgeDb Download | DOI |"
     println "|-------|--------|---------|"
     for (file in data.mappingFiles) {
-      print "| ${file[data.type.toLowerCase()]} "
+      print "| "
+      print createBioSchemas(file)
+      print "${file[data.type.toLowerCase()]} "
       print "| [${file.file}](${file.downloadURL}) "
       print "| (doi:[${file.doi}](https://doi.org/${file.doi})) "
       println "|"

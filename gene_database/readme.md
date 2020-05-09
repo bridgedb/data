@@ -35,9 +35,9 @@ for hosting the data.
 |-------|--------|---------|
 | <script type="application/ld+json">{"@type": "Dataset","name": "humancorona-2020-04-14.bridge","description": "BridgeDb identifier mapping file for Human Coronaviruses","identifier": "10.5281/zenodo.3751545","keywords": "BridgeDb, mapping file, identifier, null","url": "https://zenodo.org/record/3751545/files/humancorona-2020-04-14.bridge?download=1"}</script> Human Coronaviruses | [humancorona-2020-04-14.bridge](https://zenodo.org/record/3751545/files/humancorona-2020-04-14.bridge?download=1) | (doi:[10.5281/zenodo.3751545](https://doi.org/10.5281/zenodo.3751545)) |
 
-# Interaction and Metabolite ID mapping databases
+# Other ID mapping databases
 
 | type | BridgeDb Download | DOI |
 |-------|--------|---------|
 | <script type="application/ld+json">{"@type": "Dataset","name": "interactions20190228.bridge","description": "BridgeDb identifier mapping file for Interactions","identifier": "10.6084/m9.figshare.7782737.v1","keywords": "BridgeDb, mapping file, identifier, Interactions","url": "https://ndownloader.figshare.com/files/14488412"}</script> Interactions | [interactions20190228.bridge](https://ndownloader.figshare.com/files/14488412) | (doi:[10.6084/m9.figshare.7782737.v1](https://doi.org/10.6084/m9.figshare.7782737.v1)) |
-| <script type="application/ld+json">{"@type": "Dataset","name": "metabolites_20191025.bridge","description": "BridgeDb identifier mapping file for Metabolites","identifier": "10.6084/m9.figshare.10048508.v1","keywords": "BridgeDb, mapping file, identifier, Metabolites","url": "https://ndownloader.figshare.com/files/18108980"}</script> Metabolites | [metabolites_20191025.bridge](https://ndownloader.figshare.com/files/18108980) | (doi:[10.6084/m9.figshare.10048508.v1](https://doi.org/10.6084/m9.figshare.10048508.v1)) |
+| <script type="application/ld+json">{"@type": "Dataset","name": "metabolites_20200413.bridge","description": "BridgeDb identifier mapping file for Metabolites","identifier": "10.6084/m9.figshare.12278132.v1","keywords": "BridgeDb, mapping file, identifier, Metabolites","url": "https://ndownloader.figshare.com/files/22621442"}</script> Metabolites | [metabolites_20200413.bridge](https://ndownloader.figshare.com/files/22621442) | (doi:[10.6084/m9.figshare.12278132.v1](https://doi.org/10.6084/m9.figshare.12278132.v1)) |

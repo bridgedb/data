@@ -14,6 +14,6 @@ for hosting the data.
 
 <files>corona.json</files>
 
-# Interaction and Metabolite ID mapping databases
+# Other ID mapping databases
 
 <files>other.json</files>

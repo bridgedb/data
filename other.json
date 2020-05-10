@@ -12,6 +12,12 @@
       "file":    "metabolites_20200413.bridge",
       "downloadURL": "https://ndownloader.figshare.com/files/22621442",
       "doi": "10.6084/m9.figshare.12278132.v1"
+    },
+    {
+      "type": "PubMed-DOI (WikiPathways/Reactome subset)",
+      "file":    "publications_20200510.bridge",
+      "downloadURL": "https://ndownloader.figshare.com/files/22622720",
+      "doi": "10.6084/m9.figshare.12278693.v2"
     }
   ]
 }

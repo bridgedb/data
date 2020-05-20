@@ -3,9 +3,9 @@
   "mappingFiles": [
     {
       "species": "Human Coronaviruses",
-      "file":    "humancorona-2020-04-14.bridge",
-      "downloadURL": "https://zenodo.org/record/3751545/files/humancorona-2020-04-14.bridge?download=1",
-      "doi": "10.5281/zenodo.3751545"
+      "file":    "humancorona-2020-05-20.bridge",
+      "downloadURL": "https://zenodo.org/record/3835696/files/humancorona-2020-05-20.bridge?download=1",
+      "doi": "10.5281/zenodo.3835696"
     }
   ]
 }

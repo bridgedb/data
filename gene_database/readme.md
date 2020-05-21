@@ -33,7 +33,7 @@ for hosting the data.
 
 | Species | BridgeDb Download | DOI |
 |-------|--------|---------|
-| <script type="application/ld+json">{"@type": "Dataset","name": "humancorona-2020-04-14.bridge","description": "BridgeDb identifier mapping file for Human Coronaviruses","identifier": "10.5281/zenodo.3751545","keywords": "BridgeDb, mapping file, identifier, null","url": "https://zenodo.org/record/3751545/files/humancorona-2020-04-14.bridge?download=1"}</script> Human Coronaviruses | [humancorona-2020-04-14.bridge](https://zenodo.org/record/3751545/files/humancorona-2020-04-14.bridge?download=1) | (doi:[10.5281/zenodo.3751545](https://doi.org/10.5281/zenodo.3751545)) |
+| <script type="application/ld+json">{"@type": "Dataset","name": "humancorona-2020-05-20.bridge","description": "BridgeDb identifier mapping file for Human Coronaviruses","identifier": "10.5281/zenodo.3835696","keywords": "BridgeDb, mapping file, identifier, null","url": "https://zenodo.org/record/3835696/files/humancorona-2020-05-20.bridge?download=1"}</script> Human Coronaviruses | [humancorona-2020-05-20.bridge](https://zenodo.org/record/3835696/files/humancorona-2020-05-20.bridge?download=1) | (doi:[10.5281/zenodo.3835696](https://doi.org/10.5281/zenodo.3835696)) |
 
 # Other ID mapping databases
 

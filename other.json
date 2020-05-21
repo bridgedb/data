@@ -2,6 +2,12 @@
   "type": "type",
   "mappingFiles": [
     {
+      "type": "Complexes",
+      "file":    "complexes_20200510.bridge",
+      "downloadURL": "https://ndownloader.figshare.com/files/22624346",
+      "doi": "10.6084/m9.figshare.12278810.v1"
+    },
+    {
       "type": "Interactions",
       "file":    "interactions20190228.bridge",
       "downloadURL": "https://ndownloader.figshare.com/files/14488412",

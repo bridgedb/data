@@ -5,6 +5,10 @@ import groovy.json.JsonSlurper
 
 templateFile = "gene_database/template.md"
 
+licenseNames = [
+  "http://creativecommons.org/publicdomain/zero/1.0/" : "CC0"
+]
+
 def createBioSchemas(file, type) {
   content = "<script type=\"application/ld+json\">{"
   content += "\"@context\": \"https://schema.org/\","
@@ -14,6 +18,7 @@ def createBioSchemas(file, type) {
   content += "\"description\": \"BridgeDb identifier mapping file for ${file[type.toLowerCase()]}${extra}\","
   content += "\"identifier\": \"${file.doi}\","
   extra = type.toLowerCase() == "species" ? file[type.toLowerCase()] + ", gene, protein" : type.toLowerCase()
+  if (file.license) content += "\"license\": \"${file.license}\","
   content += "\"keywords\": \"BridgeDb, mapping file, identifier, ${extra}\","
   content += "\"url\": \"${file.downloadURL}\""
   content += "}</script> "
@@ -35,7 +40,17 @@ lines.each { String line ->
       print createBioSchemas(file, data.type)
       print "${file[data.type.toLowerCase()]} "
       print "| [${file.file}](${file.downloadURL}) "
+      print "| " + (file.size ? file.size : "")
       print "| (doi:[${file.doi}](https://doi.org/${file.doi})) "
+      licenseStr = ""
+      if (file.license) {
+        licenseStr = "[" +
+          (licenseNames[file.license] ?
+            licenseNames[file.license] :
+            "license") +
+          "](" + file.license + ") "
+      }
+      print "| ${licenseStr}"
       println "|"
     }
   } else {

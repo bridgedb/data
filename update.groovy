@@ -10,9 +10,11 @@ def createBioSchemas(file, type) {
   content += "\"@context\": \"https://schema.org/\","
   content += "\"@type\": \"Dataset\","
   content += "\"name\": \"${file.file}\","
-  content += "\"description\": \"BridgeDb identifier mapping file for ${file[type]}\","
+  extra = type.toLowerCase() == "species" ? " for genes and proteins" : " (species independent)"
+  content += "\"description\": \"BridgeDb identifier mapping file for ${file[type.toLowerCase()]}${extra}\","
   content += "\"identifier\": \"${file.doi}\","
-  content += "\"keywords\": \"BridgeDb, mapping file, identifier, ${file.type}\","
+  extra = type.toLowerCase() == "species" ? file[type.toLowerCase()] + ", gene, protein" : type.toLowerCase()
+  content += "\"keywords\": \"BridgeDb, mapping file, identifier, ${extra}\","
   content += "\"url\": \"${file.downloadURL}\""
   content += "}</script> "
   return content
@@ -30,7 +32,7 @@ lines.each { String line ->
     println "|-------|--------|---------|"
     for (file in data.mappingFiles) {
       print "| "
-      print createBioSchemas(file, data.type.toLowerCase())
+      print createBioSchemas(file, data.type)
       print "${file[data.type.toLowerCase()]} "
       print "| [${file.file}](${file.downloadURL}) "
       print "| (doi:[${file.doi}](https://doi.org/${file.doi})) "

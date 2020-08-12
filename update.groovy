@@ -7,6 +7,7 @@ templateFile = "gene_database/template.md"
 
 def createBioSchemas(file, type) {
   content = "<script type=\"application/ld+json\">{"
+  content += "\"@context\": \"https://schema.org/\","
   content += "\"@type\": \"Dataset\","
   content += "\"name\": \"${file.file}\","
   content += "\"description\": \"BridgeDb identifier mapping file for ${file[type]}\","

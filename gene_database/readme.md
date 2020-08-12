@@ -8,7 +8,7 @@ for hosting the data.
 
 # Gene / Protein ID mapping databases
 
-| Species | BridgeDb Download | DOI |
+| Species | BridgeDb Download | Size | DOI | License |
 |-------|--------|---------|
 | <script type="application/ld+json">{"@context": "https://schema.org/","@type": "Dataset","name": "Ag_Derby_Ensembl_Metazoa_39.bridge","description": "BridgeDb identifier mapping file for Anopheles gambiae for genes and proteins","identifier": "10.5281/zenodo.3667670","keywords": "BridgeDb, mapping file, identifier, Anopheles gambiae, gene, protein","url": "https://zenodo.org/record/3667670/files/Ag_Derby_Ensembl_Metazoa_39.bridge?download=1"}</script> Anopheles gambiae | [Ag_Derby_Ensembl_Metazoa_39.bridge](https://zenodo.org/record/3667670/files/Ag_Derby_Ensembl_Metazoa_39.bridge?download=1) | | (doi:[10.5281/zenodo.3667670](https://doi.org/10.5281/zenodo.3667670)) | |
 | <script type="application/ld+json">{"@context": "https://schema.org/","@type": "Dataset","name": "At_Derby_Ensembl_Plant_39.bridge","description": "BridgeDb identifier mapping file for Arabidopsis thaliana for genes and proteins","identifier": "10.5281/zenodo.3667670","keywords": "BridgeDb, mapping file, identifier, Arabidopsis thaliana, gene, protein","url": "https://zenodo.org/record/3667670/files/At_Derby_Ensembl_Plant_39.bridge?download=1"}</script> Arabidopsis thaliana | [At_Derby_Ensembl_Plant_39.bridge](https://zenodo.org/record/3667670/files/At_Derby_Ensembl_Plant_39.bridge?download=1) | | (doi:[10.5281/zenodo.3667670](https://doi.org/10.5281/zenodo.3667670)) | |
@@ -31,13 +31,13 @@ for hosting the data.
 
 ## Coronavirus gene/protein identifiers
 
-| Species | BridgeDb Download | DOI |
+| Species | BridgeDb Download | Size | DOI | License |
 |-------|--------|---------|
 | <script type="application/ld+json">{"@context": "https://schema.org/","@type": "Dataset","name": "humancorona-2020-05-20.bridge","description": "BridgeDb identifier mapping file for Human Coronaviruses for genes and proteins","identifier": "10.5281/zenodo.3835696","keywords": "BridgeDb, mapping file, identifier, Human Coronaviruses, gene, protein","url": "https://zenodo.org/record/3835696/files/humancorona-2020-05-20.bridge?download=1"}</script> Human Coronaviruses | [humancorona-2020-05-20.bridge](https://zenodo.org/record/3835696/files/humancorona-2020-05-20.bridge?download=1) | | (doi:[10.5281/zenodo.3835696](https://doi.org/10.5281/zenodo.3835696)) | |
 
 # Other ID mapping databases
 
-| type | BridgeDb Download | DOI |
+| type | BridgeDb Download | Size | DOI | License |
 |-------|--------|---------|
 | <script type="application/ld+json">{"@context": "https://schema.org/","@type": "Dataset","name": "complexes_20200510.bridge","description": "BridgeDb identifier mapping file for Complexes (species independent)","identifier": "10.6084/m9.figshare.12278810.v1","keywords": "BridgeDb, mapping file, identifier, type","url": "https://ndownloader.figshare.com/files/22624346"}</script> Complexes | [complexes_20200510.bridge](https://ndownloader.figshare.com/files/22624346) | | (doi:[10.6084/m9.figshare.12278810.v1](https://doi.org/10.6084/m9.figshare.12278810.v1)) | |
 | <script type="application/ld+json">{"@context": "https://schema.org/","@type": "Dataset","name": "interactions20190228.bridge","description": "BridgeDb identifier mapping file for Interactions (species independent)","identifier": "10.6084/m9.figshare.7782737.v1","keywords": "BridgeDb, mapping file, identifier, type","url": "https://ndownloader.figshare.com/files/14488412"}</script> Interactions | [interactions20190228.bridge](https://ndownloader.figshare.com/files/14488412) | | (doi:[10.6084/m9.figshare.7782737.v1](https://doi.org/10.6084/m9.figshare.7782737.v1)) | |

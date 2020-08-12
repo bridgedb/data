@@ -33,7 +33,7 @@ lines.each { String line ->
     def jsonSlurper = new JsonSlurper()
     fileContents = new File(input).text
     def data = jsonSlurper.parseText(fileContents)
-    println "| ${data.type} | BridgeDb Download | DOI |"
+    println "| ${data.type} | BridgeDb Download | Size | DOI | License |"
     println "|-------|--------|---------|"
     for (file in data.mappingFiles) {
       print "| "

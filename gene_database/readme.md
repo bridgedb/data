@@ -33,7 +33,7 @@ for hosting the data.
 
 | Species | BridgeDb Download | Size | DOI | License |
 |-------|--------|---------|
-| <script type="application/ld+json">{"@context": "https://schema.org/","@type": "Dataset","name": "humancorona-2020-05-20.bridge","description": "BridgeDb identifier mapping file for Human Coronaviruses for genes and proteins","identifier": "10.5281/zenodo.3835696","keywords": "BridgeDb, mapping file, identifier, Human Coronaviruses, gene, protein","url": "https://zenodo.org/record/3835696/files/humancorona-2020-05-20.bridge?download=1"}</script> Human Coronaviruses | [humancorona-2020-05-20.bridge](https://zenodo.org/record/3835696/files/humancorona-2020-05-20.bridge?download=1) | | (doi:[10.5281/zenodo.3835696](https://doi.org/10.5281/zenodo.3835696)) | |
+| <script type="application/ld+json">{"@context": "https://schema.org/","@type": "Dataset","name": "humancorona-2020-05-27.bridge","description": "BridgeDb identifier mapping file for Human Coronaviruses for genes and proteins","identifier": "10.5281/zenodo.3860798","license": "http://creativecommons.org/publicdomain/zero/1.0/","keywords": "BridgeDb, mapping file, identifier, Human Coronaviruses, gene, protein","url": "https://zenodo.org/record/3860798/files/humancorona-2020-05-27.bridge?download=1"}</script> Human Coronaviruses | [humancorona-2020-05-27.bridge](https://zenodo.org/record/3860798/files/humancorona-2020-05-27.bridge?download=1) | 2.1 MB| (doi:[10.5281/zenodo.3860798](https://doi.org/10.5281/zenodo.3860798)) | [CC0](http://creativecommons.org/publicdomain/zero/1.0/) |
 
 # Other ID mapping databases
 

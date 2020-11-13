@@ -16,11 +16,12 @@ def createBioSchemas(file, type) {
   content += "\"name\": \"${file.file}\","
   extra = type.toLowerCase() == "species" ? " for genes and proteins" : " (species independent)"
   content += "\"description\": \"BridgeDb identifier mapping file for ${file[type.toLowerCase()]}${extra}\","
-  content += "\"identifier\": \"${file.doi}\","
+  content += "\"identifier\": \"${file.doi}/${file.file}\","
   extra = type.toLowerCase() == "species" ? file[type.toLowerCase()] + ", gene, protein" : type.toLowerCase()
   if (file.license) content += "\"license\": \"${file.license}\","
   content += "\"keywords\": \"BridgeDb, mapping file, identifier, ${extra}\","
-  content += "\"url\": \"${file.downloadURL}\""
+  content += "\"url\": \"https://doi.org/${file.doi}\","
+  content += "\"distribution\": [ { \"@type\": \"DataDownload\", \"name\": \"$file.file\", \"contentURL\": \"${file.downloadURL}\" } ]"
   content += "}</script> "
   return content
 }

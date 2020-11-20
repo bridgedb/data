@@ -11,11 +11,11 @@
     },
     {
       "type": "Interactions",
-      "file":    "interactions20190228.bridge",
-      "downloadURL": "https://ndownloader.figshare.com/files/14488412",
-      "doi": "10.6084/m9.figshare.7782737.v1",
+      "file":    "interactions20201120.bridge",
+      "downloadURL": "https://ndownloader.figshare.com/files/25545722",
+      "doi": "10.6084/m9.figshare.13265078.v1",
       "license": "http://creativecommons.org/publicdomain/zero/1.0/",
-      "size": "13.43 MB"
+      "size": "14.56 MB"
     },
     {
       "type": "Metabolites",

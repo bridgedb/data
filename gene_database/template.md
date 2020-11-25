@@ -7,13 +7,16 @@ And thanks to
 for hosting the data.
 
 # Gene / Protein ID mapping databases
+<a name="genes" />
 
 <files>gene.json</files>
 
 ## Coronavirus gene/protein identifiers
+<a name="corona" />
 
 <files>corona.json</files>
 
 # Other ID mapping databases
+<a name="other" />
 
 <files>other.json</files>

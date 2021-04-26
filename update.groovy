@@ -13,15 +13,17 @@ def createBioSchemas(file, type) {
   content = "<script type=\"application/ld+json\">{"
   content += "\"@context\": \"https://schema.org/\","
   content += "\"@type\": \"Dataset\","
+  content += "\"http://purl.org/dc/terms/conformsTo\": { \"@type\": \"CreativeWork\", \"@id\": \"https://bioschemas.org/profiles/Dataset/0.4-DRAFT/\" },"
   content += "\"name\": \"${file.file}\","
   extra = type.toLowerCase() == "species" ? " for genes and proteins" : " (species independent)"
   content += "\"description\": \"BridgeDb identifier mapping file for ${file[type.toLowerCase()]}${extra}\","
   content += "\"identifier\": \"${file.doi}/${file.file}\","
   extra = type.toLowerCase() == "species" ? file[type.toLowerCase()] + ", gene, protein" : type.toLowerCase()
   if (file.license) content += "\"license\": \"${file.license}\","
-  content += "\"keywords\": \"BridgeDb, mapping file, identifier, ${extra}\","
+  content += "\"keywords\": \"BridgeDb, mapping file, identifier, ELIXIR RIR, ${extra}\","
   content += "\"url\": \"https://doi.org/${file.doi}\","
-  content += "\"distribution\": [ { \"@type\": \"DataDownload\", \"name\": \"$file.file\", \"contentURL\": \"${file.downloadURL}\" } ]"
+  content += "\"distribution\": [ { \"@type\": \"DataDownload\", \"name\": \"$file.file\", \"contentURL\": \"${file.downloadURL}\" } ],"
+  content += "\"isAccessibleForFree\": true"
   content += "}</script> "
   return content
 }

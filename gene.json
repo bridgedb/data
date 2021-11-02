@@ -164,11 +164,27 @@
       "license": "https://zenodo.org/record/3667670/files/LICENSE?download=1"
     },
     {
+      "species": "Populus trichocarpa",
+      "file":    "Pi_Derby_Ensembl_Plant_32.bridge",
+      "downloadURL": "https://zenodo.org/record/5638771/files/Pi_Derby_Ensembl_Plant_32.bridge?download=1",
+      "doi": "10.5281/zenodo.5638771",
+      "license": "https://zenodo.org/record/5638771/files/LICENSE?download=1",
+       "size": "212.5 MB"
+    },
+    {
       "species": "Pan troglodytes",
       "file":    "Pt_Derby_Ensembl_91.bridge",
       "downloadURL": "https://zenodo.org/record/3667670/files/Pt_Derby_Ensembl_91.bridge?download=1",
       "doi": "10.5281/zenodo.3667670",
       "license": "https://zenodo.org/record/3667670/files/LICENSE?download=1"
+    },
+    {
+      "species": "Equus caballus",
+      "file":    "Qc_Derby_Ensembl_85.bridge",
+      "downloadURL": "https://zenodo.org/record/5638771/files/Qc_Derby_Ensembl_85.bridge?download=1",
+      "doi": "10.5281/zenodo.5638771",
+      "license": "https://zenodo.org/record/5638771/files/LICENSE?download=1",
+       "size": "102.3 MB"
     },
     {
       "species": "Rattus norvegicus",
@@ -183,6 +199,38 @@
       "downloadURL": "https://zenodo.org/record/3667670/files/Sc_Derby_Ensembl_91.bridge?download=1",
       "doi": "10.5281/zenodo.3667670",
       "license": "https://zenodo.org/record/3667670/files/LICENSE?download=1"
+    },
+    {
+      "species": "Solanum lycopersicum",
+      "file":    "Sl_Derby_Ensembl_Plant_32.bridge",
+      "downloadURL": "https://zenodo.org/record/5638771/files/Sl_Derby_Ensembl_Plant_32.bridge?download=1",
+      "doi": "10.5281/zenodo.5638771",
+      "license": "https://zenodo.org/record/5638771/files/LICENSE?download=1",
+       "size": "59.0 MB"
+    },
+    {
+      "species": "Sus scrofa",
+      "file":    "Ss_Derby_Ensembl_85.bridge",
+      "downloadURL": "https://zenodo.org/record/5638771/files/Ss_Derby_Ensembl_85.bridge?download=1",
+      "doi": "10.5281/zenodo.5638771",
+      "license": "https://zenodo.org/record/5638771/files/LICENSE?download=1",
+       "size": "117.7 MB"
+    },
+    {
+      "species": "Vitis vinifera",
+      "file":    "Vv_Derby_Ensembl_Plant_32.bridge",
+      "downloadURL": "https://zenodo.org/record/5638771/files/Vv_Derby_Ensembl_Plant_32.bridge?download=1",
+      "doi": "10.5281/zenodo.5638771",
+      "license": "https://zenodo.org/record/5638771/files/LICENSE?download=1",
+       "size": "109.7 MB"
+    },
+    {
+      "species": "Xenopus tropicalis",
+      "file":    "Xt_Derby_Ensembl_85.bridge",
+      "downloadURL": "https://zenodo.org/record/5638771/files/Xt_Derby_Ensembl_85.bridge?download=1",
+      "doi": "10.5281/zenodo.5638771",
+      "license": "https://zenodo.org/record/5638771/files/LICENSE?download=1",
+       "size": "79.1 MB"
     },
     {
       "species": "Zea mays",

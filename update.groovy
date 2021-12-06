@@ -54,6 +54,9 @@ lines.each { String line ->
           "](" + file.license + ") "
       }
       print "| ${licenseStr}"
+      dateStr = ""
+      if (file.date) dateStr = file.date
+      print "| ${dateStr} "
       println "|"
     }
   } else {

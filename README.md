@@ -15,3 +15,27 @@ A second script generated `gdb.config` content for BridgeDb servers:
 groovy makeGDBconfig.groovy
 ```
 
+## data model
+
+The data model for each identifier mapping file looks like this:
+
+```json
+{
+      "species": "Human Coronaviruses",
+      "file":    "humancorona-2021-11-27.bridge",
+      "downloadURL": "https://zenodo.org/record/5734440/files/humancorona-2021-11-27.bridge?download=1",
+      "doi": "10.5281/zenodo.5734440",
+      "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+      "date": "2021-11-27",
+      "size": "2.1 MB"
+}
+```
+
+The `species` field is not always a species, like in the above example or for metabolites. The `file` and `size` fields
+are the filename and exact size of the mapping file, and the `downloadURL` the exact URL to directly download
+the Derby file ready for use. The `doi` and `license` field is the DOI and (open) license associated with the
+data release.
+
+For the `date` field, this is the data when the data was released. This could be the date when the archive was
+released (so, the release date of the DOI record) or the data when the original data from which the Derby file
+was created was released. For example, it could be the Ensembl release date for gene/protein mapping data.

@@ -25,6 +25,7 @@ jobs:
 
       - name: Generate website
         run: groovy update.groovy > gene_database/readme.md
+      - name: Generate BridgeDb Webservice config files
         run: groovy makeGDBconfig.groovy
 
       - name: Commit report

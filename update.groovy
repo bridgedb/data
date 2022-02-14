@@ -1,7 +1,7 @@
 // Copyright (C) 2020  Egon Willighagen
 // License: MIT
 
-import groovy.xml.XmlSlurper
+#import groovy.xml.XmlSlurper
 import groovy.json.JsonSlurper
 
 templateFile = "gene_database/template.md"

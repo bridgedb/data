@@ -14,7 +14,8 @@
       "downloadURL": "https://zenodo.org/record/5638771/files/An_Derby_Ensembl_Fungi_32.bridge?download=1",
       "doi": "10.5281/zenodo.5638771",
       "license": "https://zenodo.org/record/5638771/files/LICENSE?download=1",
-      "size": "25.3 MB"
+      "size": "25.3 MB",
+      "tested": [ "PV33" ]
     },
     {
       "species": "Arabidopsis thaliana",

@@ -1,12 +1,24 @@
 // Copyright (C) 2020  Egon Willighagen
 // License: MIT
 
+import groovy.xml.XmlSlurper
 import groovy.json.JsonSlurper
 
 templateFile = "gene_database/template.md"
 
 licenseNames = [
   "http://creativecommons.org/publicdomain/zero/1.0/" : "CC0"
+]
+
+tools = [
+  "PV33" : [
+    "name" : "PathVisio 3.3",
+    "website" : "https://github.com/PathVisio/pathvisio/releases/tag/v3.3.0"
+  ],
+  "BioC" : [
+    "name" : "BridgeDbR",
+    "website" : "https://bioconductor.org/packages/release/bioc/html/BridgeDbR.html"
+  ]
 ]
 
 def createBioSchemas(file, type) {
@@ -36,7 +48,7 @@ lines.each { String line ->
     def jsonSlurper = new JsonSlurper()
     fileContents = new File(input).text
     def data = jsonSlurper.parseText(fileContents)
-    println "| ${data.type} | BridgeDb Download | Size | DOI | License | Date |"
+    println "| ${data.type} | BridgeDb Download | Size | DOI | License | Date | Tested with"
     println "|-------|--------|---------|"
     for (file in data.mappingFiles) {
       print "| "
@@ -57,6 +69,13 @@ lines.each { String line ->
       dateStr = ""
       if (file.date) dateStr = file.date
       print "| ${dateStr} "
+      testedWithStr = ""
+      if (file.tested) {
+        for (tool in file.tested) {
+          testedWithStr += "<a href=\"${tools[tool].website}\">" + tools[tool].name + "</a> "
+        }
+      }
+      print "| ${testedWithStr}"
       println "|"
     }
   } else {

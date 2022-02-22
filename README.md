@@ -15,6 +15,8 @@ A second script generated `gdb.config` content for BridgeDb servers:
 groovy makeGDBconfig.groovy
 ```
 
+This conversion is automatically [done by GitHub Actions](https://github.com/bridgedb/data/actions).
+
 ## data model
 
 The data model for each identifier mapping file looks like this:
@@ -39,3 +41,34 @@ data release.
 For the `date` field, this is the data when the data was released. This could be the date when the archive was
 released (so, the release date of the DOI record) or the data when the original data from which the Derby file
 was created was released. For example, it could be the Ensembl release date for gene/protein mapping data.
+
+## HTML page
+
+The HTML page hosted by GitHub Pages is in this repository stored as a Markdown file, which is created from
+the JSON files. The Markdown contains [Bioschemas annotation](https://bioschemas.org/) for the datasets. This
+annotation looks like this (created with the information in the JSON files):
+
+```json
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "http://purl.org/dc/terms/conformsTo": {
+    "@type": "CreativeWork",
+    "@id": "https://bioschemas.org/profiles/Dataset/0.4-DRAFT/"
+  },
+  "name": "Ag_Derby_Ensembl_Metazoa_39.bridge",
+  "description": "BridgeDb identifier mapping file for Anopheles gambiae for genes and proteins",
+  "identifier": "10.5281/zenodo.3667670/Ag_Derby_Ensembl_Metazoa_39.bridge",
+  "license": "https://zenodo.org/record/3667670/files/LICENSE?download=1",
+  "keywords": "BridgeDb, mapping file, identifier, ELIXIR RIR, Anopheles gambiae, gene, protein",
+  "url": "https://doi.org/10.5281/zenodo.3667670",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "Ag_Derby_Ensembl_Metazoa_39.bridge",
+      "contentURL": "https://zenodo.org/record/3667670/files/Ag_Derby_Ensembl_Metazoa_39.bridge?download=1"
+    }
+  ],
+  "isAccessibleForFree": true
+}
+```

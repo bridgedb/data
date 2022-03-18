@@ -33,63 +33,69 @@
     },
     {
       "species": "Bos taurus",
-      "file":    "Bt_Derby_Ensembl_103.bridge",
-      "downloadURL": "https://zenodo.org/record/5970988/files/Bt_Derby_Ensembl_103.bridge?download=1",
-      "doi": "10.5281/zenodo.5970988",
-      "license": "https://zenodo.org/record/5970988/files/LICENSE?download=1",
-      "QCreport": "https://zenodo.org/record/5970988/files/report_Bt_Derby_Ensembl_103.qc?download=1",
-      "date": "2022-02-04",
-      "size": "151.3 MB"
+      "file":    "Bt_Derby_Ensembl_104.bridge",
+      "downloadURL": "https://zenodo.org/record/6367091/files/Bt_Derby_Ensembl_104.bridge?download=1",
+      "doi": "10.5281/zenodo.6367091",
+      "license": "https://zenodo.org/record/6367091/files/LICENSE?download=1",
+      "QCreport": "https://zenodo.org/record/6367091/files/report_Bt_Derby_Ensembl_104.qc?download=1",
+      "date": "2022-03-18",
+      "size": "153.2 MB",
+      "tested": [ "PV33" ]
     },
     {
       "species": "Caenorhabditis elegans",
-      "file":    "Ce_Derby_Ensembl_103.bridge",
-      "downloadURL": "https://zenodo.org/record/5970988/files/Ce_Derby_Ensembl_103.bridge?download=1",
-      "doi": "10.5281/zenodo.5970988",
-      "license": "https://zenodo.org/record/5970988/files/LICENSE?download=1",
-      "QCreport": "https://zenodo.org/record/5970988/files/report_Ce_Derby_Ensembl_103.qc?download=1",
-      "date": "2022-02-04",
-      "size": "176.3 MB"
+      "file":    "Ce_Derby_Ensembl_104.bridge",
+      "downloadURL": "https://zenodo.org/record/6367091/files/Ce_Derby_Ensembl_104.bridge?download=1",
+      "doi": "10.5281/zenodo.6367091",
+      "license": "https://zenodo.org/record/6367091/files/LICENSE?download=1",
+      "QCreport": "https://zenodo.org/record/6367091/files/report_Ce_Derby_Ensembl_104.qc?download=1",
+      "date": "2022-03-18",
+      "size": "176.3 MB",
+      "tested": [ "PV33" ]
     },
     {
       "species": "Canis familiaris",
-      "file":    "Cf_Derby_Ensembl_103.bridge",
-      "downloadURL": "https://zenodo.org/record/5970988/files/Cf_Derby_Ensembl_103.bridge?download=1",
-      "doi": "10.5281/zenodo.5970988",
-      "license": "https://zenodo.org/record/5970988/files/LICENSE?download=1",
-      "QCreport": "https://zenodo.org/record/5970988/files/report_Cf_Derby_Ensembl_103.qc?download=1",
-      "date": "2022-02-04",
-      "size": "152.5 MB"
+      "file":    "Cf_Derby_Ensembl_104.bridge",
+      "downloadURL": "https://zenodo.org/record/6367091/files/Cf_Derby_Ensembl_104.bridge?download=1",
+      "doi": "10.5281/zenodo.6367091",
+      "license": "https://zenodo.org/record/6367091/files/LICENSE?download=1",
+      "QCreport": "https://zenodo.org/record/6367091/files/report_Cf_Derby_Ensembl_104.qc?download=1",
+      "date": "2022-03-18",
+      "size": "152.5 MB",
+      "tested": [ "PV33" ]
     },
     {
       "species": "Ciona intestinalis",
-      "file":    "Ci_Derby_Ensembl_103.bridge",
-      "downloadURL": "https://zenodo.org/record/5970988/files/Ci_Derby_Ensembl_103.bridge?download=1",
-      "doi": "10.5281/zenodo.5970988",
-      "license": "https://zenodo.org/record/5970988/files/LICENSE?download=1",
-      "QCreport": "https://zenodo.org/record/5970988/files/report_Ci_Derby_Ensembl_103.qc?download=1",
-      "date": "2022-02-04",
-      "size": "32.7 MB"
+      "file":    "Ci_Derby_Ensembl_104.bridge",
+      "downloadURL": "https://zenodo.org/record/6367091/files/Ci_Derby_Ensembl_104.bridge?download=1",
+      "doi": "10.5281/zenodo.6367091",
+      "license": "https://zenodo.org/record/6367091/files/LICENSE?download=1",
+      "QCreport": "https://zenodo.org/record/6367091/files/report_Ci_Derby_Ensembl_104.qc?download=1",
+      "date": "2022-03-18",
+      "size": "32.7 MB",
+      "tested": [ "PV33" ]
     },
     {
       "species": "Drosophila melanogaster",
-      "file":    "Dm_Derby_Ensembl_103.bridge",
-      "downloadURL": "https://zenodo.org/record/5970988/files/Dm_Derby_Ensembl_103.bridge?download=1",
-      "doi": "10.5281/zenodo.5970988",
-      "license": "https://zenodo.org/record/5970988/files/LICENSE?download=1",
-      "QCreport": "https://zenodo.org/record/5970988/files/report_Dm_Derby_Ensembl_103.qc?download=1",
-      "date": "2022-02-04",
-      "size": "87.9 MB"
+      "file":    "Dm_Derby_Ensembl_104.bridge",
+      "downloadURL": "https://zenodo.org/record/6367091/files/Dm_Derby_Ensembl_104.bridge?download=1",
+      "doi": "10.5281/zenodo.6367091",
+      "license": "https://zenodo.org/record/6367091/files/LICENSE?download=1",
+      "QCreport": "https://zenodo.org/record/6367091/files/report_Dm_Derby_Ensembl_104.qc?download=1",
+      "date": "2022-03-18",
+      "size": "87.9 MB",
+      "tested": [ "PV33" ]
     },
     {
       "species": "Danio rerio",
-      "file":    "Dr_Derby_Ensembl_103.bridge",
-      "downloadURL": "https://zenodo.org/record/5970988/files/Dr_Derby_Ensembl_103.bridge?download=1",
-      "doi": "10.5281/zenodo.5970988",
-      "license": "https://zenodo.org/record/5970988/files/LICENSE?download=1",
-      "QCreport": "https://zenodo.org/record/5970988/files/report_Dr_Derby_Ensembl_103.qc?download=1",
-      "date": "2022-02-04",
-      "size": "269.5 MB"
+      "file":    "Dr_Derby_Ensembl_104.bridge",
+      "downloadURL": "https://zenodo.org/record/6367091/files/Dr_Derby_Ensembl_104.bridge?download=1",
+      "doi": "10.5281/zenodo.6367091",
+      "license": "https://zenodo.org/record/6367091/files/LICENSE?download=1",
+      "QCreport": "https://zenodo.org/record/6367091/files/report_Dr_Derby_Ensembl_104.qc?download=1",
+      "date": "2022-03-18",
+      "size": "269.5 MB",
+      "tested": [ "PV33" ]
     },
     {
       "species": "Escherichia coli",
@@ -100,13 +106,14 @@
     },
     {
       "species": "Gallus gallus",
-      "file":    "Gg_Derby_Ensembl_103.bridge",
-      "downloadURL": "https://zenodo.org/record/5970988/files/Gg_Derby_Ensembl_103.bridge?download=1",
-      "doi": "10.5281/zenodo.5970988",
-      "license": "https://zenodo.org/record/5970988/files/LICENSE?download=1",
-      "QCreport": "https://zenodo.org/record/5970988/files/report_Gg_Derby_Ensembl_103.qc?download=1",
-      "date": "2022-02-04",
-      "size": "129.3 MB"
+      "file":    "Gg_Derby_Ensembl_104.bridge",
+      "downloadURL": "https://zenodo.org/record/6367091/files/Gg_Derby_Ensembl_104.bridge?download=1",
+      "doi": "10.5281/zenodo.6367091",
+      "license": "https://zenodo.org/record/6367091/files/LICENSE?download=1",
+      "QCreport": "https://zenodo.org/record/6367091/files/report_Gg_Derby_Ensembl_104.qc?download=1",
+      "date": "2022-03-18",
+      "size": "129.3 MB",
+      "tested": [ "PV33" ]
     },
     {
       "species": "Gibberella zeae",
@@ -125,13 +132,14 @@
     },
     {
       "species": "Homo sapiens",
-      "file":    "Hs_Derby_Ensembl_103.bridge",
-      "downloadURL": "https://zenodo.org/record/5970988/files/Hs_Derby_Ensembl_103.bridge?download=1",
-      "doi": "10.5281/zenodo.5970988",
-      "license": "https://zenodo.org/record/5970988/files/LICENSE?download=1",
-      "QCreport": "https://zenodo.org/record/5970988/files/report_Hs_Derby_Ensembl_103.qc?download=1",
-      "date": "2022-02-04",
-      "size": "793.2 MB"
+      "file":    "Hs_Derby_Ensembl_104.bridge",
+      "downloadURL": "https://zenodo.org/record/6367091/files/Hs_Derby_Ensembl_104.bridge?download=1",
+      "doi": "10.5281/zenodo.6367091",
+      "license": "https://zenodo.org/record/6367091/files/LICENSE?download=1",
+      "QCreport": "https://zenodo.org/record/6367091/files/report_Hs_Derby_Ensembl_104.qc?download=1",
+      "date": "2022-03-18",
+      "size": "793.2 MB",
+      "tested": [ "PV33" ]
     },
     {
       "species": "Hordeum vulgare",
@@ -143,23 +151,25 @@
     },
     {
       "species": "Macaca mulatta",
-      "file":    "Ml_Derby_Ensembl_103.bridge",
-      "downloadURL": "https://zenodo.org/record/5970988/files/Ml_Derby_Ensembl_103.bridge?download=1",
-      "doi": "10.5281/zenodo.5970988",
-      "license": "https://zenodo.org/record/5970988/files/LICENSE?download=1",
-      "QCreport": "https://zenodo.org/record/5970988/files/report_Ml_Derby_Ensembl_103.qc?download=1",
-      "date": "2022-02-04",
-      "size": "277.1 MB"
+      "file":    "Ml_Derby_Ensembl_104.bridge",
+      "downloadURL": "https://zenodo.org/record/6367091/files/Ml_Derby_Ensembl_104.bridge?download=1",
+      "doi": "10.5281/zenodo.6367091",
+      "license": "https://zenodo.org/record/6367091/files/LICENSE?download=1",
+      "QCreport": "https://zenodo.org/record/6367091/files/report_Ml_Derby_Ensembl_104.qc?download=1",
+      "date": "2022-03-18",
+      "size": "277.1 MB",
+      "tested": [ "PV33" ]
     },
     {
       "species": "Mus musculus",
-      "file":    "Mm_Derby_Ensembl_103.bridge",
-      "downloadURL": "https://zenodo.org/record/5970988/files/Mm_Derby_Ensembl_103.bridge?download=1",
-      "doi": "10.5281/zenodo.5970988",
-      "license": "https://zenodo.org/record/5970988/files/LICENSE?download=1",
-      "QCreport": "https://zenodo.org/record/5970988/files/report_Mm_Derby_Ensembl_103.qc?download=1",
-      "date": "2022-02-04",
-      "size": "410.6 MB"
+      "file":    "Mm_Derby_Ensembl_104.bridge",
+      "downloadURL": "https://zenodo.org/record/6367091/files/Mm_Derby_Ensembl_104.bridge?download=1",
+      "doi": "10.5281/zenodo.6367091",
+      "license": "https://zenodo.org/record/6367091/files/LICENSE?download=1",
+      "QCreport": "https://zenodo.org/record/6367091/files/report_Mm_Derby_Ensembl_104.qc?download=1",
+      "date": "2022-03-18",
+      "size": "410.6 MB",
+      "tested": [ "PV33" ]
     },
     {
       "species": "Mycobacterium tuberculosis",
@@ -171,13 +181,25 @@
     },
     {
       "species": "Ornithorhynchus anatinus",
-      "file":    "Oa_Derby_Ensembl_103.bridge",
-      "downloadURL": "https://zenodo.org/record/5970988/files/Oa_Derby_Ensembl_103.bridge?download=1",
-      "doi": "10.5281/zenodo.5970988",
-      "license": "https://zenodo.org/record/5970988/files/LICENSE?download=1",
-      "QCreport": "https://zenodo.org/record/5970988/files/report_Oa_Derby_Ensembl_103.qc?download=1",
-      "date": "2022-02-04",
-      "size": "88.9 MB"
+      "file":    "Oa_Derby_Ensembl_104.bridge",
+      "downloadURL": "https://zenodo.org/record/6367091/files/Oa_Derby_Ensembl_104.bridge?download=1",
+      "doi": "10.5281/zenodo.6367091",
+      "license": "https://zenodo.org/record/6367091/files/LICENSE?download=1",
+      "QCreport": "https://zenodo.org/record/6367091/files/report_Oa_Derby_Ensembl_104.qc?download=1",
+      "date": "2022-03-18",
+      "size": "88.9 MB",
+      "tested": [ "PV33" ]
+    },
+    {
+      "species": "Ovis aries",
+      "file":    "Ova_Derby_Ensembl_104.bridge",
+      "downloadURL": "https://zenodo.org/record/6367091/files/Ova_Derby_Ensembl_104.bridge?download=1",
+      "doi": "10.5281/zenodo.6367091",
+      "license": "https://zenodo.org/record/6367091/files/LICENSE?download=1",
+      "QCreport": "https://zenodo.org/record/6367091/files/report_Ova_Derby_Ensembl_104.qc?download=1",
+      "date": "2022-03-18",
+      "size": "95.4 MB",
+      "tested": [ "PV33" ]
     },
     {
       "species": "Oryza indica",
@@ -204,43 +226,47 @@
     },
     {
       "species": "Pan troglodytes",
-      "file":    "Pt_Derby_Ensembl_103.bridge",
-      "downloadURL": "https://zenodo.org/record/5970988/files/Pt_Derby_Ensembl_103.bridge?download=1",
-      "doi": "10.5281/zenodo.5970988",
-      "license": "https://zenodo.org/record/5970988/files/LICENSE?download=1",
-      "QCreport": "https://zenodo.org/record/5970988/files/report_Pt_Derby_Ensembl_103.qc?download=1",
-      "date": "2022-02-04",
-      "size": "369.5 MB"
+      "file":    "Pt_Derby_Ensembl_104.bridge",
+      "downloadURL": "https://zenodo.org/record/6367091/files/Pt_Derby_Ensembl_104.bridge?download=1",
+      "doi": "10.5281/zenodo.6367091",
+      "license": "https://zenodo.org/record/6367091/files/LICENSE?download=1",
+      "QCreport": "https://zenodo.org/record/6367091/files/report_Pt_Derby_Ensembl_104.qc?download=1",
+      "date": "2022-03-18",
+      "size": "370.1 MB",
+      "tested": [ "PV33" ]
     },
     {
       "species": "Equus caballus",
-      "file":    "Qc_Derby_Ensembl_103.bridge",
-      "downloadURL": "https://zenodo.org/record/5970988/files/Qc_Derby_Ensembl_103.bridge?download=1",
-      "doi": "10.5281/zenodo.5970988",
-      "license": "https://zenodo.org/record/5970988/files/LICENSE?download=1",
-      "QCreport": "https://zenodo.org/record/5970988/files/report_Qc_Derby_Ensembl_103.qc?download=1",
-      "date": "2022-02-04",
-      "size": "176.0 MB"
+      "file":    "Qc_Derby_Ensembl_104.bridge",
+      "downloadURL": "https://zenodo.org/record/6367091/files/Qc_Derby_Ensembl_104.bridge?download=1",
+      "doi": "10.5281/zenodo.6367091",
+      "license": "https://zenodo.org/record/6367091/files/LICENSE?download=1",
+      "QCreport": "https://zenodo.org/record/6367091/files/report_Qc_Derby_Ensembl_104.qc?download=1",
+      "date": "2022-03-18",
+      "size": "176.7 MB",
+      "tested": [ "PV33" ]
     },
     {
       "species": "Rattus norvegicus",
-      "file":    "Rn_Derby_Ensembl_103.bridge",
-      "downloadURL": "https://zenodo.org/record/5970988/files/Rn_Derby_Ensembl_103.bridge?download=1",
-      "doi": "10.5281/zenodo.5970988",
-      "license": "https://zenodo.org/record/5970988/files/LICENSE?download=1",
-      "QCreport": "https://zenodo.org/record/5970988/files/report_Rn_Derby_Ensembl_103.qc?download=1",
-      "date": "2022-02-04",
-      "size": "288.6 MB"
+      "file":    "Rn_Derby_Ensembl_104.bridge",
+      "downloadURL": "https://zenodo.org/record/6367091/files/Rn_Derby_Ensembl_104.bridge?download=1",
+      "doi": "10.5281/zenodo.6367091",
+      "license": "https://zenodo.org/record/6367091/files/LICENSE?download=1",
+      "QCreport": "https://zenodo.org/record/6367091/files/report_Rn_Derby_Ensembl_104.qc?download=1",
+      "date": "2022-03-18",
+      "size": "289.2 MB",
+      "tested": [ "PV33" ]
     },
     {
       "species": "Saccharomyces cerevisiae",
-      "file":    "Sc_Derby_Ensembl_103.bridge",
-      "downloadURL": "https://zenodo.org/record/5970988/files/Sc_Derby_Ensembl_103.bridge?download=1",
-      "doi": "10.5281/zenodo.5970988",
-      "license": "https://zenodo.org/record/5970988/files/LICENSE?download=1",
-      "QCreport": "https://zenodo.org/record/5970988/files/report_Sc_Derby_Ensembl_103.qc?download=1",
-      "date": "2022-02-04",
-      "size": "35.0 MB"
+      "file":    "Sc_Derby_Ensembl_104.bridge",
+      "downloadURL": "https://zenodo.org/record/6367091/files/Sc_Derby_Ensembl_104.bridge?download=1",
+      "doi": "10.5281/zenodo.6367091",
+      "license": "https://zenodo.org/record/6367091/files/LICENSE?download=1",
+      "QCreport": "https://zenodo.org/record/6367091/files/report_Sc_Derby_Ensembl_104.qc?download=1",
+      "date": "2022-03-18",
+      "size": "35.0 MB",
+      "tested": [ "PV33" ]
     },
     {
       "species": "Solanum lycopersicum",
@@ -252,13 +278,14 @@
     },
     {
       "species": "Sus scrofa",
-      "file":    "Ss_Derby_Ensembl_103.bridge",
-      "downloadURL": "https://zenodo.org/record/5970988/files/Ss_Derby_Ensembl_103.bridge?download=1",
-      "doi": "10.5281/zenodo.5970988",
-      "license": "https://zenodo.org/record/5970988/files/LICENSE?download=1",
-      "QCreport": "https://zenodo.org/record/5970988/files/report_Ss_Derby_Ensembl_103.qc?download=1",
-      "date": "2022-02-04",
-      "size": "155.0 MB"
+      "file":    "Ss_Derby_Ensembl_104.bridge",
+      "downloadURL": "https://zenodo.org/record/6367091/files/Ss_Derby_Ensembl_104.bridge?download=1",
+      "doi": "10.5281/zenodo.6367091",
+      "license": "https://zenodo.org/record/6367091/files/LICENSE?download=1",
+      "QCreport": "https://zenodo.org/record/6367091/files/report_Ss_Derby_Ensembl_104.qc?download=1",
+      "date": "2022-03-18",
+      "size": "161.7 MB",
+      "tested": [ "PV33" ]
     },
     {
       "species": "Vitis vinifera",
@@ -270,11 +297,14 @@
     },
     {
       "species": "Xenopus tropicalis",
-      "file":    "Xt_Derby_Ensembl_85.bridge",
-      "downloadURL": "https://zenodo.org/record/5638771/files/Xt_Derby_Ensembl_85.bridge?download=1",
-      "doi": "10.5281/zenodo.5638771",
-      "license": "https://zenodo.org/record/5638771/files/LICENSE?download=1",
-      "size": "79.1 MB"
+      "file":    "Xt_Derby_Ensembl_104.bridge",
+      "downloadURL": "https://zenodo.org/record/6367091/files/Xt_Derby_Ensembl_104.bridge?download=1",
+      "doi": "10.5281/zenodo.6367091",
+      "license": "https://zenodo.org/record/6367091/files/LICENSE?download=1",
+      "QCreport": "https://zenodo.org/record/6367091/files/report_Xt_Derby_Ensembl_104.qc?download=1",
+      "date": "2022-03-18",
+      "size": "105.5 MB",
+      "tested": [ "PV33" ]
     },
     {
       "species": "Zea mays",

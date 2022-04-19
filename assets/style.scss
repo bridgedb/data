@@ -1,0 +1,14 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+//Previous implementation:
+//.inner {
+//  max-width: 80%;
+//}
+
+//New implementation:
+.container-lg {
+    max-width: 1212px;
+}

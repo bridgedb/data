@@ -25,10 +25,11 @@ def createBioSchemas(file, type) {
   content = "<script type=\"application/ld+json\">{"
   content += "\"@context\": \"https://schema.org/\","
   content += "\"@type\": \"Dataset\","
-  content += "\"http://purl.org/dc/terms/conformsTo\": { \"@type\": \"CreativeWork\", \"@id\": \"https://bioschemas.org/profiles/Dataset/0.4-DRAFT/\" },"
+  content += "\"http://purl.org/dc/terms/conformsTo\": { \"@type\": \"CreativeWork\", \"@id\": \"https://bioschemas.org/profiles/Dataset/1.0-RELEASE\" },"
   content += "\"name\": \"${file.file}\","
   extra = type.toLowerCase() == "species" ? " for genes and proteins" : " (species independent)"
   content += "\"description\": \"BridgeDb identifier mapping file for ${file[type.toLowerCase()]}${extra}\","
+  content += "\"@id\": \"https://bridgedb.github.io/data/gene_database/${file.doi}/${file.file}\","
   content += "\"identifier\": \"${file.doi}/${file.file}\","
   extra = type.toLowerCase() == "species" ? file[type.toLowerCase()] + ", gene, protein" : type.toLowerCase()
   if (file.license) content += "\"license\": \"${file.license}\","

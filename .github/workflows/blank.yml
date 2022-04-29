@@ -31,6 +31,6 @@ jobs:
           if git diff --exit-code --staged; then
               echo "No changes"
           else
-              git commit -m 'Update formatted references'
+              git commit -m 'Converted JSON content into markdown '
               git push
           fi

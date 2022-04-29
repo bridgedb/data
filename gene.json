@@ -86,6 +86,17 @@
       "tested": [ "PV33" ]
     },
     {
+      "species": "Danio rerio",
+      "file":    "Dr_Derby_Ensembl_105.bridge",
+      "downloadURL": "https://zenodo.org/record/6502115/files/Dr_Derby_Ensembl_105.bridge?download=1",
+      "doi": "10.5281/zenodo.6502115",
+      "license": "https://zenodo.org/record/6502115/files/LICENSE?download=1",
+      "QCreport": "https://zenodo.org/record/6502115/files/report_Dr_Derby_Ensembl_105.qc?download=1",
+      "date": "2022-04-28",
+      "size": "271.1 MB",
+      "tested": [ "PV33" ]
+    },
+    {
       "species": "Daphnia magna",
       "file":    "Da_Derby_Ensembl_Metazoa_49.bridge",
       "downloadURL": "https://zenodo.org/record/6500401/files/Da_Derby_Ensembl_Metazoa_49.bridge?download=1",
@@ -93,17 +104,6 @@
       "license": "https://zenodo.org/record/6500401/files/LICENSE?download=1",
       "date": "2022-04-28",
       "size": "44.6 MB",
-      "tested": [ "PV33" ]
-    },
-    {
-      "species": "Drosophila melanogaster",
-      "file":    "Dm_Derby_Ensembl_105.bridge",
-      "downloadURL": "https://zenodo.org/record/6502115/files/Dm_Derby_Ensembl_105.bridge?download=1",
-      "doi": "10.5281/zenodo.6502115",
-      "license": "https://zenodo.org/record/6502115/files/LICENSE?download=1",
-      "QCreport": "https://zenodo.org/record/6502115/files/report_Dm_Derby_Ensembl_105.qc?download=1",
-      "date": "2022-04-28",
-      "size": "121.9 MB",
       "tested": [ "PV33" ]
     },
     {
@@ -117,14 +117,14 @@
       "tested": [ "PV33" ]
     },
     {
-      "species": "Danio rerio",
-      "file":    "Dr_Derby_Ensembl_105.bridge",
-      "downloadURL": "https://zenodo.org/record/6502115/files/Dr_Derby_Ensembl_105.bridge?download=1",
+      "species": "Drosophila melanogaster",
+      "file":    "Dm_Derby_Ensembl_105.bridge",
+      "downloadURL": "https://zenodo.org/record/6502115/files/Dm_Derby_Ensembl_105.bridge?download=1",
       "doi": "10.5281/zenodo.6502115",
       "license": "https://zenodo.org/record/6502115/files/LICENSE?download=1",
-      "QCreport": "https://zenodo.org/record/6502115/files/report_Dr_Derby_Ensembl_105.qc?download=1",
+      "QCreport": "https://zenodo.org/record/6502115/files/report_Dm_Derby_Ensembl_105.qc?download=1",
       "date": "2022-04-28",
-      "size": "271.1 MB",
+      "size": "121.9 MB",
       "tested": [ "PV33" ]
     },
     {

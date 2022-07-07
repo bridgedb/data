@@ -23,7 +23,10 @@
       "downloadURL": "https://ndownloader.figshare.com/files/26001794",
       "doi": "10.6084/m9.figshare.13550384.v1",
       "license": "http://creativecommons.org/publicdomain/zero/1.0/",
-      "size": "1.86 GB"
+      "QCreport": "https://figshare.com/account/projects/28500/articles/20260911?file=36197109",
+      "date": "2022-07-07",
+      "size": "1.86 GB",
+      "tested": [ "PV33" ]
     },
     {
       "type": "Publications",

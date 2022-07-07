@@ -19,11 +19,11 @@
     },
     {
       "type": "Metabolites",
-      "file":    "metabolites_20210109.bridge",
-      "downloadURL": "https://ndownloader.figshare.com/files/26001794",
-      "doi": "10.6084/m9.figshare.13550384.v1",
+      "file":    "metabolites_20220707.bridge",
+      "downloadURL": "https://figshare.com/ndownloader/files/36197283",
+      "doi": "https://doi.org/10.6084/m9.figshare.20260911",
       "license": "http://creativecommons.org/publicdomain/zero/1.0/",
-      "size": "1.86 GB"
+      "size": "2.59 GB"
     },
     {
       "type": "Publications",

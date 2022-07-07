@@ -6,9 +6,9 @@ And thanks to [Zenodo](https://zenodo.org/) and [Figshare](https://figshare.com/
 Requests for additional identifier mapping files can be posted [here](). 
 
 # Gene / Protein ID mapping databases
-
-
 <a name="genes" />
+
+[JSON source](gene.json)
 
 | Species | BridgeDb Download | Size | DOI | License | Date | Tested with
 |-------|--------|---------|
@@ -51,12 +51,16 @@ Requests for additional identifier mapping files can be posted [here]().
 ## Coronavirus gene/protein identifiers
 <a name="corona" />
 
+[JSON source](corona.json)
+
 | Species | BridgeDb Download | Size | DOI | License | Date | Tested with
 |-------|--------|---------|
 | <script type="application/ld+json">{"@context": "https://schema.org/","@type": "Dataset","http://purl.org/dc/terms/conformsTo": { "@type": "CreativeWork", "@id": "https://bioschemas.org/profiles/Dataset/1.0-RELEASE" },"name": "humancorona-2021-11-27.bridge","description": "BridgeDb identifier mapping file for Human Coronaviruses for genes and proteins","@id": "https://bridgedb.github.io/data/gene_database/10.5281/zenodo.5734440/humancorona-2021-11-27.bridge","identifier": "10.5281/zenodo.5734440/humancorona-2021-11-27.bridge","license": "http://creativecommons.org/publicdomain/zero/1.0/","keywords": "BridgeDb, mapping file, identifier, ELIXIR RIR, Human Coronaviruses, gene, protein","url": "https://doi.org/10.5281/zenodo.5734440","distribution": [ { "@type": "DataDownload", "name": "humancorona-2021-11-27.bridge", "contentURL": "https://zenodo.org/record/5734440/files/humancorona-2021-11-27.bridge?download=1" } ],"isAccessibleForFree": true}</script> Human Coronaviruses | [humancorona-2021-11-27.bridge](https://zenodo.org/record/5734440/files/humancorona-2021-11-27.bridge?download=1) | 2.1 MB| (doi:[10.5281/zenodo.5734440](https://doi.org/10.5281/zenodo.5734440)) | [CC0](http://creativecommons.org/publicdomain/zero/1.0/) | 2021-11-27 | |
 
 # Other ID mapping databases
 <a name="other" />
+
+[JSON source](other.json)
 
 | type | BridgeDb Download | Size | DOI | License | Date | Tested with
 |-------|--------|---------|

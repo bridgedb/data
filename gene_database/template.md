@@ -6,18 +6,22 @@ And thanks to [Zenodo](https://zenodo.org/) and [Figshare](https://figshare.com/
 Requests for additional identifier mapping files can be posted [here](). 
 
 # Gene / Protein ID mapping databases
-
-
 <a name="genes" />
+
+[JSON source](gene.json)
 
 <files>gene.json</files>
 
 ## Coronavirus gene/protein identifiers
 <a name="corona" />
 
+[JSON source](corona.json)
+
 <files>corona.json</files>
 
 # Other ID mapping databases
 <a name="other" />
+
+[JSON source](other.json)
 
 <files>other.json</files>

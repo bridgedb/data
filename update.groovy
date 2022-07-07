@@ -1,7 +1,7 @@
-// Copyright (C) 2020  Egon Willighagen
+// Copyright (C) 2020-2022  Egon Willighagen
 // License: MIT
 
-// import groovy.xml.XmlSlurper
+import groovy.xml.XmlSlurper
 import groovy.json.JsonSlurper
 
 templateFile = "gene_database/template.md"
@@ -49,13 +49,14 @@ lines.each { String line ->
     def jsonSlurper = new JsonSlurper()
     fileContents = new File(input).text
     def data = jsonSlurper.parseText(fileContents)
-    println "| ${data.type} | BridgeDb Download | Size | DOI | License | Date | Tested with"
+    println "| ${data.type} | BridgeDb Download | QC report | Size | DOI | License | Date | Tested with"
     println "|-------|--------|---------|"
     for (file in data.mappingFiles) {
       print "| "
       print createBioSchemas(file, data.type)
       print "${file[data.type.toLowerCase()]} "
       print "| [${file.file}](${file.downloadURL}) "
+      print "| " + (file.QCreport ? "[QC](${file.QCreport})" : "")
       print "| " + (file.size ? file.size : "")
       print "| (doi:[${file.doi}](https://doi.org/${file.doi})) "
       licenseStr = ""

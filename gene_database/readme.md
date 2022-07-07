@@ -8,7 +8,7 @@ Requests for additional identifier mapping files can be posted [here]().
 # Gene / Protein ID mapping databases
 <a name="genes" />
 
-[JSON source](gene.json)
+[JSON source](../gene.json)
 
 | Species | BridgeDb Download | Size | DOI | License | Date | Tested with
 |-------|--------|---------|
@@ -51,7 +51,7 @@ Requests for additional identifier mapping files can be posted [here]().
 ## Coronavirus gene/protein identifiers
 <a name="corona" />
 
-[JSON source](corona.json)
+[JSON source](../corona.json)
 
 | Species | BridgeDb Download | Size | DOI | License | Date | Tested with
 |-------|--------|---------|
@@ -60,7 +60,7 @@ Requests for additional identifier mapping files can be posted [here]().
 # Other ID mapping databases
 <a name="other" />
 
-[JSON source](other.json)
+[JSON source](../other.json)
 
 | type | BridgeDb Download | Size | DOI | License | Date | Tested with
 |-------|--------|---------|

@@ -23,7 +23,8 @@
       "downloadURL": "https://figshare.com/ndownloader/files/36197283",
       "doi": "10.6084/m9.figshare.20260911",
       "license": "http://creativecommons.org/publicdomain/zero/1.0/",
-      "size": "2.59 GB"
+      "size": "2.59 GB",
+      "tested": [ "PV33" ]
     },
     {
       "type": "Publications",

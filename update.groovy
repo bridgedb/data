@@ -55,6 +55,8 @@ lines.each { String line ->
       print "| "
       print createBioSchemas(file, data.type)
       print "${file[data.type.toLowerCase()]} "
+      typeID = file[data.type.toLowerCase()+"ID"]
+      print (typeID ? "(<a href=\"https://bioregistry.io/${typeID}\">${typeID}</a>) " : " ")
       print "| [${file.file}](${file.downloadURL}) "
       print "| " + (file.QCreport ? "[QC](${file.QCreport})" : "")
       print "| " + (file.size ? file.size : "")

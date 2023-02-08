@@ -7,6 +7,7 @@
       "downloadURL": "https://ndownloader.figshare.com/files/22624346",
       "doi": "10.6084/m9.figshare.12278810.v1",
       "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+      "date": "2020-05-10",
       "size": "8.28 MB"
     },
     {
@@ -15,6 +16,7 @@
       "downloadURL": "https://ndownloader.figshare.com/files/26003138",
       "doi": "10.6084/m9.figshare.13551176",
       "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+      "date": "2021-01-09",
       "size": "17.13 MB"
     },
     {
@@ -23,6 +25,7 @@
       "downloadURL": "https://figshare.com/ndownloader/files/36197283",
       "doi": "10.6084/m9.figshare.20260911",
       "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+      "date": "2022-07-07",
       "size": "2.59 GB",
       "tested": [ "PV33" ]
     },
@@ -32,6 +35,7 @@
       "downloadURL": "https://figshare.com/ndownloader/files/31494029",
       "doi": "10.6084/m9.figshare.17027795.v1",
       "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+      "date": "2021-11-16",
       "size": "23.62 MB"
     }
   ]

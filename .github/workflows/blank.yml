@@ -15,28 +15,28 @@ jobs:
           submodules: true
           fetch-depth: 0
 
-      #- name: Install groovy
-      #  run: sudo apt install groovy
-#
-      #- name: Generate website
-      #  run: groovy update.groovy > gene_database/readme.md
-      #- name: Generate BridgeDb Webservice config files
-      #  run: groovy makeGDBconfig.groovy
-#
-      #- name: Commit report
-      #  run: |
-      #    git config --global user.name 'GitHub Action'
-      #    git config --global user.email 'action@github.com'
-      #    git add gene_database/readme.md *.config
-      #    if git diff --exit-code --staged; then
-      #        echo "No changes"
-      #    else
-      #        git commit -m 'Converted JSON content into markdown '
-      #        git push
-      #    fi
+      - name: Install groovy
+        run: sudo apt install groovy
+
+      - name: Generate website
+        run: groovy update.groovy > gene_database/readme.md
+      - name: Generate BridgeDb Webservice config files
+        run: groovy makeGDBconfig.groovy
+
+      - name: Commit report
+        run: |
+          git config --global user.name 'GitHub Action'
+          git config --global user.email 'action@github.com'
+          git add gene_database/readme.md *.config
+          if git diff --exit-code --staged; then
+              echo "No changes"
+          else
+              git commit -m 'Converted JSON content into markdown '
+              git push
+          fi
       - name: Trigger docker release
         uses: peter-evans/repository-dispatch@v2
         with:
           token: ${{ secrets.pat_external_workflow }}
-          repository: jmillanacosta/docker
+          repository: bridgedb/docker
           event-type: update-event

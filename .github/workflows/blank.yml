@@ -34,3 +34,9 @@ jobs:
               git commit -m 'Converted JSON content into markdown '
               git push
           fi
+      - name: Trigger docker release
+        uses: peter-evans/repository-dispatch@v2
+        with:
+          token: ${{ secrets.pat_external_workflow }}
+          repository: bridgedb/docker
+          event-type: update-event

@@ -3,12 +3,12 @@
   "mappingFiles": [
     {
       "type": "Complexes",
-      "file":    "complexes_20200510.bridge",
-      "downloadURL": "https://ndownloader.figshare.com/files/22624346",
-      "doi": "10.6084/m9.figshare.12278810.v1",
+      "file":    "complexes-2023-02-09.bridge",
+      "downloadURL": "https://zenodo.org/record/7625357/files/complexes-2023-02-09.bridge?download=1",
+      "doi": "10.5281/zenodo.7625357",
       "license": "http://creativecommons.org/publicdomain/zero/1.0/",
-      "date": "2020-05-10",
-      "size": "8.28 MB"
+      "date": "2023-02-09",
+      "size": "12.5 MB"
     },
     {
       "type": "Interactions",

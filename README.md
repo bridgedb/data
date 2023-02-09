@@ -15,7 +15,7 @@ A second script generated `gdb.config` content for BridgeDb servers:
 groovy makeGDBconfig.groovy
 ```
 
-This conversion is automatically [done by GitHub Actions](https://github.com/bridgedb/data/actions). The same action also triggers the [build and push workflow for the BridgeDB docker image](https://github.com/bridgedb/docker/actions/workflows/buildandpush.yml).
+This conversion is automatically [done by GitHub Actions](https://github.com/bridgedb/data/actions). The same workflow also triggers the [build and push workflow for the BridgeDB docker image](https://github.com/bridgedb/docker/actions/workflows/buildandpush.yml).
 
 ## data model
 

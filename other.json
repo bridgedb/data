@@ -31,12 +31,12 @@
     },
     {
       "type": "Publications",
-      "file":    "publications_20211116.bridge",
-      "downloadURL": "https://figshare.com/ndownloader/files/31494029",
-      "doi": "10.6084/m9.figshare.17027795.v1",
+      "file":    "publications_20230428.bridge",
+      "downloadURL": "https://figshare.com/ndownloader/files/40356739",
+      "doi": "10.6084/m9.figshare.22720564.v1",
       "license": "http://creativecommons.org/publicdomain/zero/1.0/",
-      "date": "2021-11-16",
-      "size": "23.62 MB"
+      "date": "2023-04-28",
+      "size": "25.7 MB"
     }
   ]
 }

@@ -1,10 +1,10 @@
-// Copyright (C) 2020-2022  Egon Willighagen
+// Copyright (C) 2020-2023  Egon Willighagen
 // License: MIT
 
 // import groovy.xml.XmlSlurper
 import groovy.json.JsonSlurper
 
-templateFile = "gene_database/template.md"
+templateFile = "template.md"
 
 licenseNames = [
   "http://creativecommons.org/publicdomain/zero/1.0/" : "CC0"

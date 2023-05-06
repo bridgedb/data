@@ -47,3 +47,9 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
+      - name: Trigger docker release
+        uses: peter-evans/repository-dispatch@v2
+        with:
+          token: ${{ secrets.pat_external_workflow }}
+          repository: bridgedb/docker
+          event-type: update-event

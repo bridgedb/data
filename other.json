@@ -11,6 +11,15 @@
       "size": "12.5 MB"
     },
     {
+      "type": "Genes",
+      "file":    "genes_20230506.bridge",
+      "downloadURL": "https://zenodo.org/record/7902769/files/genes_20230506.bridge?download=1",
+      "doi": "10.5281/zenodo.7902769",
+      "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+      "date": "2023-05-06",
+      "size": "95.1 MB"
+    },
+    {
       "type": "Interactions",
       "file":    "interactions20210109.bridge",
       "downloadURL": "https://ndownloader.figshare.com/files/26003138",
@@ -28,6 +37,15 @@
       "date": "2022-07-07",
       "size": "2.59 GB",
       "tested": [ "PV33" ]
+    },
+    {
+      "type": "Pathways",
+      "file":    "pathways_20211211.bridge",
+      "downloadURL": "https://zenodo.org/record/5773822/files/pathways_20211211.bridge?download=1",
+      "doi": "10.5281/zenodo.5773822",
+      "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+      "date": "2021-12-11",
+      "size": "2.4 MB"
     },
     {
       "type": "Publications",

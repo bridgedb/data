@@ -1,0 +1,42 @@
+{
+  "type": "type",
+  "mappingFiles": [
+    {
+      "type": "Complexes",
+      "file":    "complexes-2023-02-09.bridge",
+      "downloadURL": "https://zenodo.org/record/7625357/files/complexes-2023-02-09.bridge?download=1",
+      "doi": "10.5281/zenodo.7625357",
+      "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+      "date": "2023-02-09",
+      "size": "12.5 MB"
+    },
+    {
+      "type": "Interactions",
+      "file":    "interactions20210109.bridge",
+      "downloadURL": "https://ndownloader.figshare.com/files/26003138",
+      "doi": "10.6084/m9.figshare.13551176",
+      "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+      "date": "2021-01-09",
+      "size": "17.13 MB"
+    },
+    {
+      "type": "Metabolites",
+      "file":    "metabolites_20220707.bridge",
+      "downloadURL": "https://figshare.com/ndownloader/files/36197283",
+      "doi": "10.6084/m9.figshare.20260911",
+      "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+      "date": "2022-07-07",
+      "size": "2.59 GB",
+      "tested": [ "PV33" ]
+    },
+    {
+      "type": "Publications",
+      "file":    "publications_20230428.bridge",
+      "downloadURL": "https://figshare.com/ndownloader/files/40356739",
+      "doi": "10.6084/m9.figshare.22720564.v1",
+      "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+      "date": "2023-04-28",
+      "size": "25.7 MB"
+    }
+  ]
+}

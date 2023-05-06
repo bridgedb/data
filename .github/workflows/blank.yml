@@ -23,7 +23,7 @@ jobs:
   webpage:
     runs-on: ubuntu-latest
     outputs:
-      modified: ${{ steps.changes.outputs.modified }}
+      modified: ${{ steps.commit.outputs.modified }}
     steps:
       - uses: actions/checkout@v3
         with:
@@ -42,6 +42,7 @@ jobs:
           groovy makeGDBconfig.groovy
 
       - name: Commit report
+        id: commit
         run: |
           git config --global user.name 'GitHub Action'
           git config --global user.email 'action@github.com'
@@ -89,8 +90,8 @@ jobs:
   # Pinging jobs
   pingDocker:
     runs-on: ubuntu-latest
-    needs: deploy
-    if: ${{needs.changed-gpmls.outputs.modified}}
+    needs: [webpage, deploy]
+    if: ${{needs.webpage.outputs.modified}}
     steps:
       - name: Trigger docker release
         uses: peter-evans/repository-dispatch@v2
@@ -101,8 +102,8 @@ jobs:
 
   pingWikiPathways:
     runs-on: ubuntu-latest
-    needs: deploy
-    if: ${{needs.changed-gpmls.outputs.modified}}
+    needs: [webpage, deploy]
+    if: ${{needs.webpage.outputs.modified}}
     steps:
       - name: Trigger WikiPathways BridgeDb Cache Reset
         uses: peter-evans/repository-dispatch@v2

@@ -3,7 +3,7 @@ name: Ping WikiPathways
 on:
   push:
     paths:
-      - 'gene_database/readme.md'
+      - 'docs/gene_database/genes.json'
 
 jobs:
   webpage:

@@ -191,6 +191,7 @@
     },
     {
       "species": "Fusarium graminearum",
+      "speciesID": "ncbitaxon:5518",
       "file":    "Fg_Derby_Ensembl_Fungi_52.bridge",
       "downloadURL": "https://zenodo.org/record/7781891/files/Fg_Derby_Ensembl_Fungi_52.bridge?download=1",
       "doi": "10.5281/zenodo.7781891",

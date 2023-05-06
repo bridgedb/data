@@ -43,7 +43,9 @@
       "file":    "Bs_Derby_Ensembl_91.bridge",
       "downloadURL": "https://zenodo.org/record/3667670/files/Bs_Derby_Ensembl_91.bridge?download=1",
       "doi": "10.5281/zenodo.3667670",
-      "license": "https://zenodo.org/record/3667670/files/LICENSE?download=1"
+      "license": "https://zenodo.org/record/3667670/files/LICENSE?download=1",
+      "date": "2020-02-14",
+      "size": "8.2 MB"
     },
     {
       "species": "Bos taurus",
@@ -147,7 +149,9 @@
       "file":    "Ec_Derby_Ensembl_91.bridge",
       "downloadURL": "https://zenodo.org/record/3667670/files/Ec_Derby_Ensembl_91.bridge?download=1",
       "doi": "10.5281/zenodo.3667670",
-      "license": "https://zenodo.org/record/3667670/files/LICENSE?download=1"
+      "license": "https://zenodo.org/record/3667670/files/LICENSE?download=1",
+      "date": "2020-02-14",
+      "size": "12.6 MB"
     },
     {
       "species": "Equus caballus",
@@ -251,6 +255,7 @@
       "downloadURL": "https://zenodo.org/record/5638771/files/Mx_Derby_Ensembl_85.bridge?download=1",
       "doi": "10.5281/zenodo.5638771",
       "license": "https://zenodo.org/record/5638771/files/LICENSE?download=1",
+      "date": "2021-11-02",
       "size": "11.5 MB"
     },
     {

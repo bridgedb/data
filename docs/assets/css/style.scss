@@ -3,7 +3,12 @@
 
 @import "{{ site.theme }}";
 
-//Updating the width of the Table for https://bridgedb.github.io/data/gene_database page :
-.container-lg {
-    max-width: 1212px;
+.main-content {
+  max-width: 100rem;
+  font-size: 1rem;
+}
+
+.main-content table th, .main-content table td {
+  padding: 0.5rem;
+  vertical-align: top;
 }

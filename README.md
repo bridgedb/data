@@ -6,7 +6,7 @@ The input is a JSON file from which the `gene_database/readme.md` is autogenerat
 with the scripts in this folder:
 
 ```shell
-groovy update.groovy > gene_database/readme.md
+groovy update.groovy > docs/gene_database/readme.md
 ```
 
 A second script generated `gdb.config` content for BridgeDb servers:

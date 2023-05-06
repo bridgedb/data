@@ -49,7 +49,7 @@ lines.each { String line ->
     def jsonSlurper = new JsonSlurper()
     fileContents = new File(input).text
     def data = jsonSlurper.parseText(fileContents)
-    println "| ${data.type} | BridgeDb Download | QC report | Size | DOI | License | Date | Tested with"
+    println "| ${data.type} | BridgeDb Download | QC report | Size | License | Date | Tested with"
     println "|-------|--------|---------|"
     for (file in data.mappingFiles) {
       print "| "
@@ -57,10 +57,9 @@ lines.each { String line ->
       print "${file[data.type.toLowerCase()]} "
       typeID = file[data.type.toLowerCase()+"ID"]
       print (typeID ? "(<a href=\"https://bioregistry.io/${typeID}\">${typeID}</a>) " : " ")
-      print "| [${file.file}](${file.downloadURL}) "
+      print "| [${file.file}](${file.downloadURL}) (doi:[${file.doi}](https://doi.org/${file.doi})) "
       print "| " + (file.QCreport ? "[QC](${file.QCreport})" : "")
       print "| " + (file.size ? file.size : "")
-      print "| (doi:[${file.doi}](https://doi.org/${file.doi})) "
       licenseStr = ""
       if (file.license) {
         licenseStr = "[" +

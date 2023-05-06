@@ -284,6 +284,7 @@
     },
     {
       "species": "Oryza japonica",
+      "speciesID": "ncbitaxon:39947",
       "file":    "Oj_Derby_Ensembl_Plant_52.bridge",
       "downloadURL": "https://zenodo.org/record/7781895/files/Oj_Derby_Ensembl_Plant_52.bridge?download=1",
       "doi": "10.5281/zenodo.7781895",

@@ -10,7 +10,7 @@ jobs:
   webpage:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
           submodules: true
           fetch-depth: 0
@@ -19,24 +19,21 @@ jobs:
         run: sudo apt install groovy
 
       - name: Generate website
-        run: groovy update.groovy > gene_database/readme.md
+        run: |
+          groovy update.groovy > docs/gene_database/readme.md
+          cp *.json docs/gene_database/.
       - name: Generate BridgeDb Webservice config files
-        run: groovy makeGDBconfig.groovy
+        run: |
+          groovy makeGDBconfig.groovy
 
       - name: Commit report
         run: |
           git config --global user.name 'GitHub Action'
           git config --global user.email 'action@github.com'
-          git add gene_database/readme.md *.config
+          git add docs
           if git diff --exit-code --staged; then
               echo "No changes"
           else
               git commit -m 'Converted JSON content into markdown '
               git push
           fi
-      - name: Trigger docker release
-        uses: peter-evans/repository-dispatch@v2
-        with:
-          token: ${{ secrets.pat_external_workflow }}
-          repository: bridgedb/docker
-          event-type: update-event

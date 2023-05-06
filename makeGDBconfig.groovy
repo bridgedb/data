@@ -1,9 +1,9 @@
-// Copyright (C) 2021  Egon Willighagen
+// Copyright (C) 2021-2023  Egon Willighagen
 // License: MIT
 
 import groovy.json.JsonSlurper
 
-templateFile = "gene_database/template.md"
+templateFile = "template.md"
 
 // create the GDB config file content
 lines = new File(templateFile).readLines()
@@ -13,7 +13,7 @@ lines.each { String line ->
     def input = instruction.text()    
     def jsonSlurper = new JsonSlurper()
     fileContents = new File(input).text
-    new File("${input}.config").withWriter('utf-8') { writer ->
+    new File("/docs/gene_database/${input}.config").withWriter('utf-8') { writer ->
       def data = jsonSlurper.parseText(fileContents)
       data.mappingFiles.each { mappingFile ->
         if (data.type == "Species") {

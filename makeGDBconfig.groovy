@@ -13,7 +13,7 @@ lines.each { String line ->
     def input = instruction.text()    
     def jsonSlurper = new JsonSlurper()
     fileContents = new File(input).text
-    new File("/docs/${input}.config").withWriter('utf-8') { writer ->
+    new File("docs/${input}.config").withWriter('utf-8') { writer ->
       def data = jsonSlurper.parseText(fileContents)
       data.mappingFiles.each { mappingFile ->
         if (data.type == "Species") {

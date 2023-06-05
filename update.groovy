@@ -61,9 +61,9 @@ lines.each { String line ->
       typeID = file[data.type.toLowerCase()+"ID"]
       extra = (commonName != null ? ", " + latinName : "")
       if (typeID) {
-        print (extra == "") ? "(<a href=\"https://bioregistry.io/${typeID}\">${typeID}</a>$extra) " : "($extra)")
+        print (extra == "") ? "(<a href=\"https://bioregistry.io/${typeID}\">${typeID}</a>$extra) " : "($extra)"
       } else {
-        print (extra != "") ? "($extra)" : ""
+        print (extra != "" ? "($extra)" : "")
       }
       print "| [${file.file}](${file.downloadURL}) (doi:[${file.doi}](https://doi.org/${file.doi})) "
       print "| " + (file.QCreport ? "[QC](${file.QCreport})" : "")

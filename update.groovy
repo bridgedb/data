@@ -55,9 +55,16 @@ lines.each { String line ->
     for (file in data.mappingFiles) {
       print "| "
       print createBioSchemas(file, data.type)
-      print "${file[data.type.toLowerCase()]} "
+      commonName = file.common != null ? ", " + file.common : ""
+      latinName = ${file[data.type.toLowerCase()]}
+      print (commonName != null ? commonName : latinName) + " "
       typeID = file[data.type.toLowerCase()+"ID"]
-      print (typeID ? "(<a href=\"https://bioregistry.io/${typeID}\">${typeID}</a>) " : " ")
+      extra = (commonName != null ? ", " + latinName : "")
+      if (typeID) {
+        print (extra == "") ? "(<a href=\"https://bioregistry.io/${typeID}\">${typeID}</a>$extra) " : "($extra)")
+      } else {
+        print (extra != "") ? "($extra)" : ""
+      }
       print "| [${file.file}](${file.downloadURL}) (doi:[${file.doi}](https://doi.org/${file.doi})) "
       print "| " + (file.QCreport ? "[QC](${file.QCreport})" : "")
       print "| " + (file.size ? file.size : "")

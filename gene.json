@@ -11,7 +11,8 @@
       "QCreport": "https://zenodo.org/record/7327722/files/report_Ag_Derby_Ensembl_Metazoa_52.qc?download=1",
       "date": "2023-01-06",
       "size": "42.9 MB",
-      "tested": [ "PV33" ]
+      "tested": [ "PV33" ],
+      "common": "African malaria mosquito"
     },
     {
       "species": "Aspergillus niger",
@@ -211,7 +212,8 @@
       "QCreport": "https://zenodo.org/record/7781913/files/report_Hs_Derby_Ensembl_108.qc?download=1",
       "date": "2023-03-31",
       "size": "839.3 MB",
-      "tested": [ "PV33" ]
+      "tested": [ "PV33" ],
+      "common": "Human"
     },
     {
       "species": "Hordeum vulgare",

@@ -56,7 +56,7 @@ lines.each { String line ->
       print "| "
       print createBioSchemas(file, data.type)
       commonName = file.common != null ? ", " + file.common : ""
-      latinName = ${file[data.type.toLowerCase()]}
+      latinName = file[data.type.toLowerCase()]
       print (commonName != null ? commonName : latinName) + " "
       typeID = file[data.type.toLowerCase()+"ID"]
       extra = (commonName != null ? ", " + latinName : "")

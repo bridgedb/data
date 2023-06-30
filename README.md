@@ -23,13 +23,13 @@ The data model for each identifier mapping file looks like this:
 
 ```json
 {
-      "species": "Human Coronaviruses",
-      "file":    "humancorona-2021-11-27.bridge",
-      "downloadURL": "https://zenodo.org/record/5734440/files/humancorona-2021-11-27.bridge?download=1",
-      "doi": "10.5281/zenodo.5734440",
-      "license": "http://creativecommons.org/publicdomain/zero/1.0/",
-      "date": "2021-11-27",
-      "size": "2.1 MB"
+  "species": "Human Coronaviruses",
+  "file":    "humancorona-2021-11-27.bridge",
+  "downloadURL": "https://zenodo.org/record/5734440/files/humancorona-2021-11-27.bridge?download=1",
+  "doi": "10.5281/zenodo.5734440",
+  "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+  "date": "2021-11-27",
+  "size": "2.1 MB"
 }
 ```
 

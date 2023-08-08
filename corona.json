@@ -8,7 +8,8 @@
       "doi": "10.5281/zenodo.5734440",
       "license": "http://creativecommons.org/publicdomain/zero/1.0/",
       "date": "2021-11-27",
-      "size": "2.1 MB"
+      "size": "2.1 MB",
+      "tested": [ "WS" ]
     }
   ]
 }

@@ -18,6 +18,10 @@ tools = [
   "BioC" : [
     "name" : "BridgeDbR",
     "website" : "https://bioconductor.org/packages/release/bioc/html/BridgeDbR.html"
+  ],
+  "WS": [
+    "name" : "BridgeDb Webservice",
+    "website" : "https://github.com/bridgedb/BridgeDbWebservice"
   ]
 ]
 

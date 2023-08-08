@@ -36,7 +36,7 @@
       "license": "http://creativecommons.org/publicdomain/zero/1.0/",
       "date": "2022-07-07",
       "size": "2.59 GB",
-      "tested": [ "PV33" ]
+      "tested": [ "PV33" , "WS" ]
     },
     {
       "type": "Pathways",

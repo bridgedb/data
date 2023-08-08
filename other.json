@@ -8,7 +8,8 @@
       "doi": "10.5281/zenodo.7625357",
       "license": "http://creativecommons.org/publicdomain/zero/1.0/",
       "date": "2023-02-09",
-      "size": "12.5 MB"
+      "size": "12.5 MB",
+      "tested": [ "WS" ]
     },
     {
       "type": "Genes",
@@ -17,7 +18,8 @@
       "doi": "10.5281/zenodo.7902769",
       "license": "http://creativecommons.org/publicdomain/zero/1.0/",
       "date": "2023-05-06",
-      "size": "95.1 MB"
+      "size": "95.1 MB",
+      "tested": [ "WS" ]
     },
     {
       "type": "Interactions",
@@ -26,7 +28,8 @@
       "doi": "10.6084/m9.figshare.13551176",
       "license": "http://creativecommons.org/publicdomain/zero/1.0/",
       "date": "2021-01-09",
-      "size": "17.13 MB"
+      "size": "17.13 MB",
+      "tested": [ "WS" ]
     },
     {
       "type": "Metabolites",
@@ -45,7 +48,8 @@
       "doi": "10.5281/zenodo.5773822",
       "license": "http://creativecommons.org/publicdomain/zero/1.0/",
       "date": "2021-12-11",
-      "size": "2.4 MB"
+      "size": "2.4 MB",
+      "tested": [ "WS" ]
     },
     {
       "type": "Publications",
@@ -55,7 +59,8 @@
       "license": "http://creativecommons.org/publicdomain/zero/1.0/",
       "QCreport": "https://figshare.com/ndownloader/files/40356736",
       "date": "2023-04-28",
-      "size": "25.7 MB"
+      "size": "25.7 MB",
+      "tested": [ "WS" ]
     }
   ]
 }

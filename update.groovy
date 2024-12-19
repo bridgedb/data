@@ -62,6 +62,8 @@ lines.each { String line ->
       print "${file[data.type.toLowerCase()]} "
       typeID = file[data.type.toLowerCase()+"ID"]
       print (typeID ? "(<a href=\"https://bioregistry.io/${typeID}\">${typeID}</a>) " : " ")
+      commonName = file["common"]
+      print (commonName ? "(${commonName}) " : " ")
       print "| [${file.file}](${file.downloadURL}) (doi:[${file.doi}](https://doi.org/${file.doi})) "
       print "| " + (file.QCreport ? "[QC](${file.QCreport})" : "")
       print "| " + (file.size ? file.size : "")

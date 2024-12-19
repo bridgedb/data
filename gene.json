@@ -83,7 +83,8 @@
       "QCreport": "https://zenodo.org/record/7781913/files/report_Cf_Derby_Ensembl_108.qc?download=1",
       "date": "2023-03-31",
       "size": "162.4 MB",
-      "tested": [ "PV33" , "WS" ]
+      "tested": [ "PV33" , "WS" ],
+      "common": "Dog"
     },
     {
       "species": "Ciona intestinalis",

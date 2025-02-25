@@ -11,7 +11,7 @@
       "QCreport": "https://zenodo.org/record/14779363/files/report_Ag_Derby_EnsemblMetazoa_56.qc?download=1",
       "date": "2025-01-31",
       "size": "38.5 MB",
-      "tested": [ "PV33" , "WS" ],
+      "tested": [ "PV3.3" , "WS" ],
       "common": "African malaria mosquito"
     },
     {
@@ -24,7 +24,7 @@
       "QCreport": "https://zenodo.org/record/14779316/files/report_An_Derby_EnsemblFungi_56.qc?download=1",
       "date": "2025-01-31",
       "size": "34.4 MB",
-      "tested": [ "PV33" , "WS" ]
+      "tested": [ "PV3.3" , "WS" ]
     },
     {
       "species": "Arabidopsis thaliana",
@@ -36,7 +36,7 @@
       "QCreport": "https://zenodo.org/record/14779268/files/report_At_Derby_EnsemblPlants_56.qc?download=1",
       "date": "2025-01-31",
       "size": "159.6 MB",
-      "tested": [ "PV33" , "WS" ]
+      "tested": [ "PV3.3" , "WS" ]
     },
     {
       "species": "Bacillus subtilis",
@@ -59,7 +59,7 @@
       "QCreport": "https://zenodo.org/record/14779056/files/report_Bt_Derby_Ensembl_111.qc?download=1",
       "date": "2025-01-31",
       "size": "154.4 MB",
-      "tested": [ "PV33" , "WS" ]
+      "tested": [ "PV3.3" , "WS" ]
     },
     {
       "species": "Caenorhabditis elegans",
@@ -71,7 +71,7 @@
       "QCreport": "https://zenodo.org/record/14779056/files/report_Ce_Derby_Ensembl_111.qc?download=1",
       "date": "2025-01-31",
       "size": "208.3 MB",
-      "tested": [ "PV33" , "WS" ]
+      "tested": [ "PV3.3" , "WS" ]
     },
     {
       "species": "Canis familiaris",
@@ -83,7 +83,7 @@
       "QCreport": "https://zenodo.org/record/14779056/files/report_Cf_Derby_Ensembl_111.qc?download=1",
       "date": "2025-01-31",
       "size": "191.9 MB",
-      "tested": [ "PV33" , "WS" ],
+      "tested": [ "PV3.3" , "WS" ],
       "common": "Dog"
     },
     {
@@ -96,7 +96,7 @@
       "QCreport": "https://zenodo.org/record/14779056/files/report_Ci_Derby_Ensembl_111.qc?download=1",
       "date": "2025-01-31",
       "size": "31.5 MB",
-      "tested": [ "PV33" , "WS" ]
+      "tested": [ "PV3.3" , "WS" ]
     },
     {
       "species": "Danio rerio",
@@ -108,7 +108,7 @@
       "QCreport": "https://zenodo.org/record/14779056/files/report_Dr_Derby_Ensembl_111.qc?download=1",
       "date": "2025-01-31",
       "size": "263.3 MB",
-      "tested": [ "PV33" , "WS" ]
+      "tested": [ "PV3.3" , "WS" ]
     },
     {
       "species": "Daphnia magna",
@@ -120,7 +120,7 @@
       "QCreport": "https://zenodo.org/record/14779363/files/report_Da_Derby_EnsemblMetazoa_56.qc?download=1",
       "date": "2025-01-31",
       "size": "43.6 MB",
-      "tested": [ "PV33" , "WS" ]
+      "tested": [ "PV3.3" , "WS" ]
     },
     {
       "species": "Daphnia pulex",
@@ -132,7 +132,7 @@
       "QCreport": "https://zenodo.org/record/14779363/files/report_Dp_Derby_EnsemblMetazoa_56.qc?download=1",
       "date": "2025-01-31",
       "size": "51.2 MB",
-      "tested": [ "PV33" , "WS" ]
+      "tested": [ "PV3.3" , "WS" ]
     },
     {
       "species": "Drosophila melanogaster",
@@ -144,7 +144,7 @@
       "QCreport": "https://zenodo.org/record/14779056/files/report_Dm_Derby_Ensembl_111.qc?download=1",
       "date": "2025-01-31",
       "size": "111.0 MB",
-      "tested": [ "PV33" , "WS" ]
+      "tested": [ "PV3.3" , "WS" ]
     },
     {
       "species": "Escherichia coli",
@@ -166,7 +166,7 @@
       "QCreport": "https://zenodo.org/record/14779056/files/report_Qc_Derby_Ensembl_111.qc?download=1",
       "date": "2025-01-31",
       "size": "155.7 MB",
-      "tested": [ "PV33" , "WS" ]
+      "tested": [ "PV3.3" , "WS" ]
     },
     {
       "species": "Gallus gallus",
@@ -178,7 +178,7 @@
       "QCreport": "https://zenodo.org/record/14779056/files/report_Gg_Derby_Ensembl_111.qc?download=1",
       "date": "2025-01-31",
       "size": "140.7 MB",
-      "tested": [ "PV33" , "WS" ]
+      "tested": [ "PV3.3" , "WS" ]
     },
     {
       "species": "Glycine max",
@@ -190,7 +190,7 @@
       "QCreport": "https://zenodo.org/record/14779268/files/report_Gm_Derby_EnsemblPlants_56.qc?download=1",
       "date": "2025-01-31",
       "size": "239.9 MB",
-      "tested": [ "PV33" , "WS" ]
+      "tested": [ "PV3.3" , "WS" ]
     },
     {
       "species": "Fusarium graminearum",
@@ -202,7 +202,7 @@
       "QCreport": "https://zenodo.org/record/14779316/files/report_Fg_Derby_EnsemblFungi_56.qc?download=1",
       "date": "2025-01-31",
       "size": "21.9 MB",
-      "tested": [ "PV33" , "WS" ]
+      "tested": [ "PV3.3" , "WS" ]
     },
     {
       "species": "Homo sapiens",
@@ -214,7 +214,7 @@
       "QCreport": "https://zenodo.org/record/14779056/files/report_Hs_Derby_Ensembl_111.qc?download=1",
       "date": "2025-01-31",
       "size": "839.8 MB",
-      "tested": [ "PV33" , "WS" ],
+      "tested": [ "PV3.3" , "WS" ],
       "common": "Human"
     },
     {
@@ -227,7 +227,7 @@
       "QCreport": "https://zenodo.org/record/14779268/files/report_Hv_Derby_EnsemblPlants_56.qc?download=1",
       "date": "2025-01-31",
       "size": "65.3 MB",
-      "tested": [ "PV33" , "WS" ]
+      "tested": [ "PV3.3" , "WS" ]
     },
     {
       "species": "Macaca mulatta",
@@ -239,7 +239,7 @@
       "QCreport": "https://zenodo.org/record/14779056/files/report_Ml_Derby_Ensembl_111.qc?download=1",
       "date": "2025-01-31",
       "size": "278.5 MB",
-      "tested": [ "PV33" , "WS" ]
+      "tested": [ "PV3.3" , "WS" ]
     },
     {
       "species": "Mus musculus",
@@ -251,7 +251,7 @@
       "QCreport": "https://zenodo.org/record/14779056/files/report_Mm_Derby_Ensembl_111.qc?download=1",
       "date": "2025-01-31",
       "size": "496.0 MB",
-      "tested": [ "PV33" , "WS" ]
+      "tested": [ "PV3.3" , "WS" ]
     },
     {
       "species": "Mycobacterium tuberculosis",
@@ -273,7 +273,7 @@
       "QCreport": "https://zenodo.org/record/14779056/files/report_Oa_Derby_Ensembl_111.qc?download=1",
       "date": "2025-01-31",
       "size": "96.0 MB",
-      "tested": [ "PV33" , "WS" ]
+      "tested": [ "PV3.3" , "WS" ]
     },
     {
       "species": "Oryza indica",
@@ -284,7 +284,7 @@
       "QCreport": "https://zenodo.org/record/14779268/files/report_Oi_Derby_EnsemblPlants_56.qc?download=1",
       "date": "2025-01-31",
       "size": "97.2 MB",
-      "tested": [ "PV33" , "WS" ]
+      "tested": [ "PV3.3" , "WS" ]
     },
     {
       "species": "Oryza japonica",
@@ -296,7 +296,7 @@
       "QCreport": "https://zenodo.org/record/14779268/files/report_Oj_Derby_EnsemblPlants_56.qc?download=1",
       "date": "2025-01-31",
       "size": "133.8 MB",
-      "tested": [ "PV33" , "WS" ]
+      "tested": [ "PV3.3" , "WS" ]
     },
     {
       "species": "Ovis aries",
@@ -308,7 +308,7 @@
       "QCreport": "https://zenodo.org/record/14779056/files/report_Ova_Derby_Ensembl_111.qc?download=1",
       "date": "2025-01-31",
       "size": "75.7 MB",
-      "tested": [ "PV33" , "WS" ]
+      "tested": [ "PV3.3" , "WS" ]
     },
     {
       "species": "Pan troglodytes",
@@ -320,7 +320,7 @@
       "QCreport": "https://zenodo.org/record/14779056/files/report_Pt_Derby_Ensembl_111.qc?download=1",
       "date": "2025-01-31",
       "size": "367.6 MB",
-      "tested": [ "PV33" , "WS" ]
+      "tested": [ "PV3.3" , "WS" ]
     },
     {
       "species": "Populus trichocarpa",
@@ -332,7 +332,7 @@
       "QCreport": "https://zenodo.org/record/14779268/files/report_Pi_Derby_EnsemblPlants_56.qc?download=1",
       "date": "2025-01-31",
       "size": "160.0 MB",
-      "tested": [ "PV33" , "WS" ]
+      "tested": [ "PV3.3" , "WS" ]
     },
     {
       "species": "Rattus norvegicus",
@@ -344,7 +344,7 @@
       "QCreport": "https://zenodo.org/record/14779056/files/report_Rn_Derby_Ensembl_111.qc?download=1",
       "date": "2025-01-31",
       "size": "284.4 MB",
-      "tested": [ "PV33" , "WS" ]
+      "tested": [ "PV3.3" , "WS" ]
     },
     {
       "species": "Saccharomyces cerevisiae",
@@ -356,7 +356,7 @@
       "QCreport": "https://zenodo.org/record/14779056/files/report_Sc_Derby_Ensembl_111.qc?download=1",
       "date": "2025-01-31",
       "size": "41.4 MB",
-      "tested": [ "PV33" , "WS" ]
+      "tested": [ "PV3.3" , "WS" ]
     },
     {
       "species": "Solanum lycopersicum",
@@ -368,7 +368,7 @@
       "QCreport": "https://zenodo.org/record/14779268/files/report_Sl_Derby_EnsemblPlants_56.qc?download=1",
       "date": "2025-01-31",
       "size": "107.2 MB",
-      "tested": [ "PV33" , "WS" ]
+      "tested": [ "PV3.3" , "WS" ]
     },
     {
       "species": "Solanum tuberosum",
@@ -380,7 +380,7 @@
       "QCreport": "",
       "date": "2025-01-31",
       "size": "95.0 MB",
-      "tested": [ "PV33" , "WS" ]
+      "tested": [ "PV3.3" , "WS" ]
     },
     {
       "species": "Sus scrofa",
@@ -392,7 +392,7 @@
       "QCreport": "https://zenodo.org/record/14779056/files/report_Ss_Derby_Ensembl_111.qc?download=1",
       "date": "2025-01-31",
       "size": "188.6 MB",
-      "tested": [ "PV33" , "WS" ]
+      "tested": [ "PV3.3" , "WS" ]
     },
     {
       "species": "Vitis vinifera",
@@ -404,7 +404,7 @@
       "QCreport": "https://zenodo.org/record/14779268/files/report_Vv_Derby_EnsemblPlants_56.qc?download=1",
       "date": "2025-01-31",
       "size": "126.5 MB",
-      "tested": [ "PV33" , "WS" ]
+      "tested": [ "PV3.3" , "WS" ]
     },
     {
       "species": "Xenopus tropicalis",
@@ -416,7 +416,7 @@
       "QCreport": "https://zenodo.org/record/14779056/files/report_Xt_Derby_Ensembl_111.qc?download=1",
       "date": "2025-021-31",
       "size": "176.0 MB",
-      "tested": [ "PV33" , "WS" ]
+      "tested": [ "PV3.3" , "WS" ]
     },
     {
       "species": "Zea mays",
@@ -428,7 +428,7 @@
       "QCreport": "https://zenodo.org/record/14779268/files/report_Zm_Derby_EnsemblPlants_56.qc?download=1",
       "date": "2025-01-31",
       "size": "170.1 MB",
-      "tested": [ "PV33" , "WS" ]
+      "tested": [ "PV3.3" , "WS" ]
     }
   ]
 }

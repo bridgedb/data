@@ -15,6 +15,10 @@ tools = [
     "name" : "PathVisio 3.3",
     "website" : "https://github.com/PathVisio/pathvisio/releases/tag/v3.3.0"
   ],
+  "PV3.3" : [
+    "name" : "PathVisio 3.3",
+    "website" : "https://github.com/PathVisio/pathvisio/releases/tag/v3.3.0"
+  ],
   "BioC" : [
     "name" : "BridgeDbR",
     "website" : "https://bioconductor.org/packages/release/bioc/html/BridgeDbR.html"

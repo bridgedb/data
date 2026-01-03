@@ -33,13 +33,13 @@
     },
     {
       "type": "Metabolites",
-      "file":    "metabolites_20241215.bridge",
-      "downloadURL": "https://figshare.com/ndownloader/files/51201419",
-      "doi": "10.6084/m9.figshare.28030427.v1",
+      "file":    "metabolites_20260102.bridge",
+      "downloadURL": "https://figshare.com/ndownloader/files/60760156",
+      "doi": "10.6084/m9.figshare.30993322",
       "license": "http://creativecommons.org/publicdomain/zero/1.0/",
-      "QCreport": "https://figshare.com/ndownloader/files/51201425",
-      "date": "2024-12-15",
-      "size": "2.84 GB",
+      "QCreport": "https://figshare.com/ndownloader/files/60760153",
+      "date": "2026-01-02",
+      "size": "2.79 GB",
       "tested": [ "PV33" , "WS" ]
     },
     {

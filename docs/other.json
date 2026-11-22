@@ -34,10 +34,10 @@
     {
       "type": "Metabolites",
       "file":    "metabolites_20260102.bridge",
-      "downloadURL": "https://figshare.com/ndownloader/files/60760156",
+      "downloadURL": "https://ndownloader.figshare.com/files/60760156",
       "doi": "10.6084/m9.figshare.30993322",
       "license": "http://creativecommons.org/publicdomain/zero/1.0/",
-      "QCreport": "https://figshare.com/ndownloader/files/60760153",
+      "QCreport": "https://ndownloader.figshare.com/files/60760153",
       "date": "2026-01-02",
       "size": "2.79 GB",
       "tested": [ "PV33" , "WS" ]
@@ -55,10 +55,10 @@
     {
       "type": "Publications",
       "file":    "publications_20230428.bridge",
-      "downloadURL": "https://figshare.com/ndownloader/files/40356739",
+      "downloadURL": "https://ndownloader.figshare.com/files/40356739",
       "doi": "10.6084/m9.figshare.22720564.v1",
       "license": "http://creativecommons.org/publicdomain/zero/1.0/",
-      "QCreport": "https://figshare.com/ndownloader/files/40356736",
+      "QCreport": "https://ndownloader.figshare.com/files/40356736",
       "date": "2023-04-28",
       "size": "25.7 MB",
       "tested": [ "WS" ]

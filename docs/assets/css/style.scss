@@ -3,6 +3,16 @@
 
 @import "{{ site.theme }}";
 
+// Palette taken from logo_BridgeDb-maas-letters-nooutline.svg
+// (Maastricht's Hoge Brug at dusk: twilight sky, dark river, street lamps)
+$sky-light:   #89c6df;
+$sky:         #5b8cac;
+$sky-dark:    #2f5d7c;
+$slate:       #32424e;
+$slate-dark:  #1f2a33;
+$lamp:        #e8a33d;
+$paper:       #f4f9fc;
+
 .main-content {
   max-width: 100rem;
   font-size: 1rem;
@@ -11,4 +21,123 @@
 .main-content table th, .main-content table td {
   padding: 0.5rem;
   vertical-align: top;
+}
+
+// Header: light dusk-sky background so the photo-filled letters stand out,
+// closed off by a swoosh echoing the band that cuts through the logo.
+.page-header {
+  position: relative;
+  color: $slate;
+  background-color: #fff;
+  background-image: linear-gradient(180deg, #ffffff 0%, #ffffff 45%, lighten($sky-light, 18%) 100%);
+  padding-bottom: 4.5rem;
+
+  @media screen and (max-width: 42em) {
+    padding-bottom: 3rem;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 2.5rem;
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 403 40' preserveAspectRatio='none'%3E%3Cpath d='M0,22 C134,8 268,-4 403,20 L403,40 L0,40 Z' fill='%2332424e'/%3E%3Cpath d='M0,22 C134,8 268,-4 403,20 L403,24 C268,2 134,12 0,28 Z' fill='%23e8a33d'/%3E%3C/svg%3E") no-repeat bottom / 100% 100%;
+  }
+}
+
+.site-logo {
+  display: block;
+  margin: 0 auto 1.5rem;
+  max-width: 640px;
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}
+
+.site-nav {
+  position: relative;
+  z-index: 1;
+}
+
+.btn {
+  color: $slate;
+  background-color: rgba($sky-light, 0.18);
+  border-color: rgba($sky, 0.55);
+  font-weight: 600;
+
+  &:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: $sky;
+    border-color: $sky;
+  }
+
+  &:focus-visible {
+    outline: 2px solid $lamp;
+    outline-offset: 2px;
+  }
+}
+
+// Content
+.main-content {
+  h1, h2, h3, h4, h5, h6 {
+    color: $sky-dark;
+  }
+
+  h1, h2 {
+    border-bottom: 2px solid rgba($sky-light, 0.5);
+    padding-bottom: 0.25em;
+  }
+
+  a {
+    color: darken($sky, 12%);
+
+    &:hover {
+      color: $slate-dark;
+      text-decoration-color: $lamp;
+      text-decoration-thickness: 2px;
+    }
+  }
+
+  code {
+    color: $slate;
+    background-color: $paper;
+  }
+
+  pre {
+    background-color: $paper;
+    border-color: rgba($sky-light, 0.6);
+  }
+
+  blockquote {
+    color: $sky-dark;
+    border-left-color: $lamp;
+  }
+
+  table th {
+    color: $slate;
+    background-color: $paper;
+  }
+
+  table th,
+  table td {
+    border-color: rgba($sky-light, 0.6);
+  }
+}
+
+// Footer
+.site-footer {
+  border-top: 3px solid $lamp;
+  color: $slate;
+
+  table, tr, td {
+    border: 0;
+    background: transparent;
+    vertical-align: top;
+  }
 }

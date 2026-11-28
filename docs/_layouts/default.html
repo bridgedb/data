@@ -5,19 +5,21 @@
 
     {% seo %}
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#1a17a9">
+    <meta name="theme-color" content="#32424e">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
   </head>
   <body>
     <header class="page-header" role="banner">
-      <img src="https://www.bridgedb.org/images/cropped-logo_BridgeDbtop.png" width="90%" /><br />
+      <a href="https://www.bridgedb.org/" class="site-logo"><img src="{{ '/logo_BridgeDb-maas-letters-nooutline.svg' | relative_url }}" alt="BridgeDb" width="403" height="105" /></a>
+      <nav class="site-nav">
       <a href="https://www.bridgedb.org/" class="btn">Home</a>
       <a href="https://www.bridgedb.org/pages/docs.html" class="btn">Documentation</a>
       <a href="https://www.bridgedb.org/pages/webservice.html" class="btn">Webservices</a>
       <a href="https://www.bridgedb.org/pages/download.html" class="btn">Download</a>
       <a href="https://data.bridgedb.org/gene_database/" class="btn">Identifier Mapping Databases</a>
       <a href="https://www.bridgedb.org/pages/development.html" class="btn">Development</a>
+      </nav>
     </header>
 
     <main id="content" class="main-content" role="main">

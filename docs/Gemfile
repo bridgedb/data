@@ -1,0 +1,11 @@
+source "https://rubygems.org"
+
+# Build the site locally with the same Jekyll version, theme and plugins
+# as GitHub Pages:
+#   bundle config set --local path vendor/bundle
+#   bundle install
+#   bundle exec jekyll serve --livereload
+gem "github-pages", group: :jekyll_plugins
+
+# Needed by Jekyll on Ruby 3.x for `jekyll serve`
+gem "webrick"
